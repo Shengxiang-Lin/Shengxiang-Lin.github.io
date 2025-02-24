@@ -107,6 +107,6 @@ My research interests mainly focus on **Generative AI**, **Natural Language Proc
 <iframe width="640" height="640" src="https://cybermap.kaspersky.com/cn/widget/dynamic/dark" frameborder="0">   -->    
 # 👉 Connections       
 [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/wexin.webp" align = "left" width="80" height="80" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/wechat.webp)
-[<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/QQ.webp" align = "left" width="80" height="80" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/qq.webp)
+[<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/q.webp" align = "left" width="80" height="80" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/qq.webp)
 [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/yuyue.webp"  align = "left" width="80" height="80"/>](https://cal.com/shengxiang-lin)
 [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/X.webp"  align = "left" width="80" height="80"/>](https://x.com/Shengxiang__Lin)
