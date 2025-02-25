@@ -28,7 +28,7 @@ redirect_from:
 Hi, I am **Shengxiang Lin ( 林圣翔 )**, **CPC Preparatory Member ( 中共预备党员 )**, undergraduate student of Qian Xuesen Honor College / Department of Electronics and Information Science, Zhongying College Computer Experimental Class 2201 ( expected graduation in July 2026 ). I was awarded the **National Scholarship**, **Huawei Scholarship**, **Xi'an Jiaotong University Outstanding Student**, **Xi'an Jiaotong University Outstanding Communist Youth League Member** and other honors. I won **the second prize of individual in the national finals of the Group Programming Ladder Competition**, **the third prize of the national finals of the C/C++ University A Group of the Blue Bridge Cup Programming Competition**, **the first prize of the Shaanxi Region of the National University Students' Mathematical Modeling Competition**, and **more than ten other awards of provincial-level and above competitions**. In the summer of 2024, I participated in the **Innovative Talents Science Training Program ( ITSTP )**, and co-authored one SCI paper. Participated in **Berkeley Global Access Program ( BGA )** in the fall of 2024. I am actively involved in volunteering as the **Co-Founder & Minster of XJTU Computer Science and Technology Experimental Class-Mentor-Group**, accumulating over 300 hours of work.     
 My research interests mainly focus on **Generative AI**, **Natural Language Processing** and **Recommender System**.      
        
-<span style="color: red; font-style: italic;">Feel free to contact me by email if you are interested in discussing or collaborating with me.</span>    
+<span style="color: red; font-style: italic;">Feel free to contact me if you are interested in discussing or collaborating with me.</span>    
 # 📝 Publications   
 - *2024*, [Reconstruction of Particle Flow Energy Distribution Using Deep Learning Algorithms](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W-rloDsAAAAJ&citation_for_view=W-rloDsAAAAJ:u5HHmVD_uO8C), Han Zhang\*, <u>Shengxiang Lin*</u>, Xingyi Zhang\*, Yu Wang\*, Yangguang Zhang\*      
 
@@ -105,7 +105,7 @@ My research interests mainly focus on **Generative AI**, **Natural Language Proc
 </div>
 
 <iframe width="640" height="640" src="https://cybermap.kaspersky.com/cn/widget/dynamic/dark" frameborder="0">   -->    
-# 👉 Connections       
+# 👉 Contact      
 [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/wexin.webp" align = "left" width="80" height="80" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/wechat.webp)
 [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/q.webp" align = "left" width="80" height="80" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/qq.webp)
 [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/yuyue.webp"  align = "left" width="80" height="80"/>](https://cal.com/shengxiang-lin)
