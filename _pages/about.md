@@ -118,7 +118,7 @@ My research interests mainly focus on
 <div style="margin-top: 90px;"></div>
               
 # 🗺️ Visitor Map
-<div style="text-align: center;">
+<div style="text-align: left;">
   <a href="https://info.flagcounter.com/NWJH">
     <img src="https://s05.flagcounter.com/map/NWJH/size_s/txt_000000/border_FFFFFF/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0">
   </a>
