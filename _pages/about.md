@@ -123,7 +123,7 @@ My research interests mainly focus on
     <img src="https://s05.flagcounter.com/map/NWJH/size_s/txt_000000/border_FFFFFF/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0">
   </a>
 </div>
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center; align-items: center;">
   <script type="text/javascript" src="https://cdn.livetrafficfeed.com/static/v5/live.js?bc=ffffff&tc=000000&brd1=2853a8&lnk=135d9e&hc=ffffff&hfc=2853a8&nc=19ff19&vv=409&tft=10&ro=1&tz=Asia%2FShanghai&res=1"></script>
   <noscript id="LTF_live_website_visitor">
     <a href="http://livetrafficfeed.com">Visitor Counter</a>
