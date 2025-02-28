@@ -29,7 +29,7 @@ Hi, I am **Shengxiang Lin ( 林圣翔 )**, undergraduate student of Qian Xuesen 
 My research interests mainly focus on 
 - **Generative AI**    
 - **Natural Language Processing**         
-- **Recommender System**            
+- **Computer Vision**                 
        
 <span style="color: red; font-style: italic;">Feel free to contact me if you are interested in discussing or collaborating with me.</span>    
 # 📝 Publications   
