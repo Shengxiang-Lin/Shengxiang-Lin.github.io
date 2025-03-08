@@ -36,7 +36,7 @@ My research interests mainly focus on
 - *2024*, [Reconstruction of Particle Flow Energy Distribution Using Deep Learning Algorithms](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W-rloDsAAAAJ&citation_for_view=W-rloDsAAAAJ:u5HHmVD_uO8C), Han Zhang\*, <u>Shengxiang Lin*</u>, Xingyi Zhang\*, Yu Wang\*, Yangguang Zhang\*      
 
 # 🎖 Honors and Awards    
-- &nbsp;&nbsp;&nbsp; *2025.03*, **100 points**,  Programming Ability Test (PAT) Advanced Level     
+- &nbsp;&nbsp;&nbsp; *2025.03*, **100 points**,  Programming Ability Test ( PAT ) Advanced Level     
 - &nbsp;&nbsp;&nbsp; *2024.11*, **Huawei Scholarship**    
 - &nbsp;&nbsp;&nbsp; *2024.09*, **First Award**, China Undergraduate Mathematical Contest in Modeling ( CUMCM ) Shaanxi Region      
 - [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang1.github.io/refs/heads/master/images/Third%20Award%2C%20Blue%20Bridge%20Cup%20National%20Finals%20CC%2B%2B%20Programming%20University%20Group%20A.webp"  align = "middle"  width="1.5%"/>](../cv/Personal%20Second%20Prize%2C%20Group%20Programming%20Ladder%20Tourn.pdf)  *2024.06*, **Third Award**, Blue Bridge Cup National Finals C/C++ Programming University Group A      
