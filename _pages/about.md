@@ -111,8 +111,8 @@ My research interests mainly focus on
 <iframe width="640" height="640" src="https://cybermap.kaspersky.com/cn/widget/dynamic/dark" frameborder="0">   -->    
 # 👉 Contact      
 <!-- <div style="margin-top:100px;"></div>     -->     
-- The best way to contact me is via [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/wexin.webp" align = "left" width="8" height="8" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/wechat.webp)**Wechat** or [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/q.webp" align = "left" width="8" height="8" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/qq.webp)**QQ**.
-- [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/yuyue.webp"  align = "left" width="8" height="8"/>](https://cal.com/shengxiang-lin) Book an appointment.
+- The best way to contact me is via [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/wexin.webp" align = "left" width="20" height="20" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/wechat.webp)**Wechat** or [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/q.webp" align = "left" width="20" height="20" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/qq.webp)**QQ**.
+- [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/yuyue.webp"  align = "left" width="20" height="20"/>](https://cal.com/shengxiang-lin) Book an appointment.
 <!-- <div style="margin-top: 90px;"></div>-->    
               
 # 🗺️ Visitor Map
