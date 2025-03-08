@@ -110,13 +110,10 @@ My research interests mainly focus on
 
 <iframe width="640" height="640" src="https://cybermap.kaspersky.com/cn/widget/dynamic/dark" frameborder="0">   -->    
 # 👉 Contact      
-[<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/wexin.webp" align = "left" width="80" height="80" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/wechat.webp)
-[<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/q.webp" align = "left" width="80" height="80" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/qq.webp)
-[<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/yuyue.webp"  align = "left" width="80" height="80"/>](https://cal.com/shengxiang-lin)
-[<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/X.webp"  align = "left" width="80" height="80"/>](https://x.com/Shengxiang__Lin)    
 <!-- <div style="margin-top:100px;"></div>     -->     
-
-<div style="margin-top: 90px;"></div>
+- The best way to contact me is via [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/wexin.webp" align = "left" width="8" height="8" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/wechat.webp)**Wechat** or [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/q.webp" align = "left" width="8" height="8" />](https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/qq.webp)**QQ**.
+- [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/yuyue.webp"  align = "left" width="8" height="8"/>](https://cal.com/shengxiang-lin) Book an appointment.
+<!-- <div style="margin-top: 90px;"></div>-->    
               
 # 🗺️ Visitor Map
 <div style="text-align: center;">
