@@ -33,7 +33,7 @@ My research interests mainly focus on
        
 <span style="color: red; font-style: italic;">Feel free to contact me if you are interested in discussing or collaborating with me.</span>    
 # 📝 Publications   
-- *2024*, [Reconstruction of Particle Flow Energy Distribution Using Deep Learning Algorithms](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W-rloDsAAAAJ&citation_for_view=W-rloDsAAAAJ:u5HHmVD_uO8C), Han Zhang\*, <u>Shengxiang Lin*</u>, Xingyi Zhang\*, Yu Wang\*, Yangguang Zhang\*      
+- *2024*, [Lightweight Deep Learning Framework for Accurate Particle Flow Energy Reconstruction](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W-rloDsAAAAJ&citation_for_view=W-rloDsAAAAJ:d1gkVwhDpl0C), <u>Shengxiang Lin*</u>, Xingyi Zhang\*, Yu Wang\*, Yangguang Zhang\*, Han Zhang\*      
 
 # 🎖 Honors and Awards    
 - [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/Sliver%20Award%2CThe%202025-2026%20ICPC%20China%20Nanchang%20National%20Invitational%20Programming%20Contest.webp"  align = "middle"  width="16" height="16"/>](https://board.xcpcio.com/icpc%2F50th%2Fnanchang-invitational?group=icpc) *2025.05*, **Silver Award** ( ranking 44th out of 392 teams ), The 2025-2026 ICPC China Nanchang National Invitational Programming Contest    
