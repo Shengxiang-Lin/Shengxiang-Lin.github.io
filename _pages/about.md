@@ -58,6 +58,9 @@ My research interests mainly focus on
 - [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang1.github.io/refs/heads/master/images/ucb.webp"  align = "left"  width="20" height="20"/>](https://www.berkeley.edu/)  &nbsp; *2024.08 - 2024.12*, **University of California, Berkeley**, *UCBX Concurrent International* . 
 
 # 💻 Projects
+- *2025.03 - present*, **Integrated Management and Intelligent Service Platform for Book Sales** (Under the supervision of Prof. Xuebin Ren)        
+   • Implement a Douban book data scraping module to collect over 100,000+ book entries and 200,000+ user records, storing this data in a PostgreSQL relational database engineered to 3NF. The system features a Flask-RESTful server that integrates Deepseek-V3’s large model API and employs a hybrid recommendation algorithm. The functionality
+includes the admin panel for book CRUD operations and inventory dashboards, plus the User Portal with categorized search, shopping cart transactions, hybrid algorithm-powered recommendations, and AI-driven Q&A.    
 - *2025.03 - present*, **QQ AI Quest (QAQ) —— Secure and efficient chat hub** (Under the supervision of Prof. Tao Xie)        
    • Develop an intelligent chatbot system with Rust language, build a secure and stable server to store user information and chat records, design Restful API routing, integrate the big model API, realize the interaction logic with the big model, and use LLOneBot to interface with the back-end service to provide users with an intelligent chat experience.
 - *2024.09 - 2024.12*, **Design and Development in Operating Systems** (Under the supervision of Prof. Ion Stoica)        
