@@ -1,3 +1,4 @@
+<!-- _layouts/default.html -->
 ---
 layout: compress
 ---
@@ -7,6 +8,7 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   </head>
 
   <body>
@@ -14,18 +16,51 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
+    <button id="language-switch-button">Switch to Chinese</button>
+
     <div id="main" role="main">
       {% include sidebar.html %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
+          <section class="page__content" id="page-content" itemprop="text">
             {{ content }}
           </section>
         </div>
       </article>
     </div>
+
+    <script>
+      let currentLanguage = 'en';
+      const switchButton = document.getElementById('language-switch-button');
+      const pageContent = document.getElementById('page-content');
+
+      function loadContent(lang) {
+        const filePath = `_pages/about-${lang}.md`;
+        fetch(filePath)
+          .then(response => response.text())
+          .then(data => {
+            const html = marked.parse(data);
+            pageContent.innerHTML = html;
+          })
+          .catch(error => console.error('Error loading content:', error));
+      }
+
+      switchButton.addEventListener('click', function () {
+        if (currentLanguage === 'en') {
+          currentLanguage = 'zh';
+          switchButton.textContent = 'Switch to English';
+        } else {
+          currentLanguage = 'en';
+          switchButton.textContent = 'Switch to Chinese';
+        }
+        loadContent(currentLanguage);
+      });
+
+      // 初始加载英文内容
+      loadContent(currentLanguage);
+    </script>
 
     {% include scripts.html %}
 
