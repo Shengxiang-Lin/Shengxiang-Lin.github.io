@@ -15,7 +15,8 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <button id="language-switch-button">Switch to Chinese</button>
+    <!-- 修改按钮 ID 与 JavaScript 代码中的 ID 一致 -->
+    <button id="language-switcher">中文/English</button>
 
     <div id="main" role="main">
       {% include sidebar.html %}
@@ -32,7 +33,8 @@ layout: compress
 
     <script>
       let currentLanguage = 'en';
-      const switchButton = document.getElementById('language-switch-button');
+      // 修改为使用正确的按钮 ID
+      const switchButton = document.getElementById('language-switcher');
       const pageContent = document.getElementById('page-content');
 
       function loadContent(lang) {
@@ -48,7 +50,11 @@ layout: compress
             const html = marked.parse(data);
             pageContent.innerHTML = html;
           })
-          .catch(error => console.error('Error loading content:', error));
+          .catch(error => {
+            console.error('Error loading content:', error);
+            // 可以在这里添加一些提示信息给用户
+            pageContent.innerHTML = `<p>Error loading content for ${lang} language. Please check the file path or try again later.</p>`;
+          });
       }
 
       switchButton.addEventListener('click', function () {
