@@ -68,18 +68,18 @@ includes the admin panel for book CRUD operations and inventory dashboards, plus
    • Implement an HTTP server that handles HTTP GET requests.          
    • Implement a fault-tolerant MapReduce system using Rust. Tasks are assigned to worker processes through a coordinator process. Handle worker failures by implementing heartbeats and task redistribution.      
    • Complete OS development with Pintos, implement modules such as User Programs, Threads, File Systems, etc.           
-- *2024.09-2024.12*, **Simulation and prediction of Pacman’s behavior under different scenarios** (Under the supervision of Prof. Pieter Abbeel)         
+- *2024.09-2024.12*, **Simulation and prediction of Pacman’s behavior under different scenarios** [![](https://img.shields.io/github/stars/reallinshengxiang/COMPSCI-188?style=social&label=Code+Stars)](https://github.com/reallinshengxiang/COMPSCI-188) (Under the supervision of Prof. Pieter Abbeel)         
   • Build general search algorithms and apply them to Pacman scenarios.      
   • Design agents for the classic version of Pacman.Implement both minimax and expectimax search and evaluation function design.          
   • Implement value iteration and Q-learning. Then apply them to a simulated robot controller (Crawler) and Pacman.               
   • Using Bayesian networks and factoring, the implementation progresses from localizing a single stationary ghost to hunting swarms of multiple moving ghosts with ruthless efficiency.      
   • Using Machine Learning for Number Classification, Language Recognition, Convolutional Neural Networks, Attention, Character-GPT, etc.    
-- *2024.9-2024.11*, **Design and Development of Computer Architecture** (Under the supervision of Prof. Dan Garcia)            
+- *2024.9-2024.11*, **Design and Development of Computer Architecture** [![](https://img.shields.io/github/stars/reallinshengxiang/COMPSCI-61C?style=social&label=Code+Stars)](https://github.com/reallinshengxiang/COMPSCI-61C) (Under the supervision of Prof. Dan Garcia)            
   • Creating a playable snake game in C Programming Language.            
   • A simple machine learning algorithm for classifying handwritten digits is implemented using RISC-V assembly code.                 
   • Design a skeleton CPU which contains basic elements like ALU, Register File, and expand CPU to support more instructions and pipelining.        
   • Implementing and optimizing 2D convolution.                
-- *2024.09-2024.10*, **Simulation Implementation of Internet Protocol** (Under the supervision of Prof. Rob Shakir)             
+- *2024.09-2024.10*, **Simulation Implementation of Internet Protocol** [![](https://img.shields.io/github/stars/reallinshengxiang/COMPSCI-168?style=social&label=Code+Stars)](https://github.com/reallinshengxiang/COMPSCI-168) (Under the supervision of Prof. Rob Shakir)             
   • Implement and enhance existing traceroute implementations to handle various errors that may occur in the network.             
   • Implementing a distance vector routing protocol.             
   • Provide reliability for TCP Protocol, though it won’t include congestion control.            
