@@ -33,7 +33,7 @@ My research interests mainly focus on
        
 <span style="color: red; font-style: italic;">Feel free to contact me if you are interested in discussing or collaborating with me.</span>    
 # 📝 Publications   
-- *2024*, [Lightweight Deep Learning Framework for Accurate Particle Flow Energy Reconstruction](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W-rloDsAAAAJ&citation_for_view=W-rloDsAAAAJ:d1gkVwhDpl0C), Yu Wang\*, Yangguang Zhang\*, <u>Shengxiang Lin*</u>, Xingyi Zhang\*,  Han Zhang        
+- *2024*, [Lightweight Deep Learning Framework for Accurate Particle Flow Energy Reconstruction](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W-rloDsAAAAJ&citation_for_view=W-rloDsAAAAJ:d1gkVwhDpl0C), Yu Wang\*, Yangguang Zhang\*, <u>Shengxiang Lin*</u>, Xingyi Zhang\*,  Han Zhang [![](https://img.shields.io/github/stars/reallinshengxiang/Image-Processing-Particle-Flow-?style=social&label=Code+Stars)](https://github.com/reallinshengxiang/Image-Processing-Particle-Flow-)  
 
 # 🎖 Honors and Awards    
 - [<img src="https://raw.githubusercontent.com/reallinshengxiang/reallinshengxiang.github.io/refs/heads/main/images/Silver%20Award%2C%20The%202025%20ICPC%20China%20Nanchang%20National%20Invitational%20Programming%20Contest.webp"  align = "middle"  width="16" height="16"/>](../cv/Silver%20Award%2C%20The%202025%20ICPC%20China%20Nanchang%20National%20Invitational%20Programming%20Contest.pdf) *2025.05*, **Silver Award** ( ranking 44th out of 392 teams ), The 2025 ICPC China National Invitational Programming Contest ( Nanchang )    
