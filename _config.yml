@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Shengxiang Lin(林圣翔)"
 description              : "Student of Xi'an Jiaotong University"
-repository               : "reallinshengxiang/reallinshengxiang.github.io"
+repository               : "Shengxiang-Lin/Shengxiang-Lin.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Shengxiang Lin(林圣翔)"
-  avatar           : "images/profile1.png"
+  avatar           : "images/profile2.png"
   bio              : "Xi'an Jiaotong University"
   location         : "Xi'an, China"
   employer         :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         : "林圣翔"
   foursquare       :
-  github           : "reallinshengxiang"
+  github           : "Shengxiang-Lin"
   google_plus      :
   keybase          :
   instagram        : "real_linshengxiang"
