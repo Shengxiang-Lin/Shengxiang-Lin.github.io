@@ -1,25 +1,5 @@
-# main links links
-main:
-  - title: "About Me"
-    url: "/#about-me"
-
-  - title: "Publications"
-    url: "/#-publications"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Projects"
-    url: "/#-projects"
-
-  - title: "Social Engagements"
-    url: "/#-social-engagements"
-
-  - title: "News"
-    url: "/#-news"
-
-  - title: "Contact"
-    url: "/#-contact"
+pages:
+- name: Home
+  url: ./
+- name: Publications
+  url: publications
