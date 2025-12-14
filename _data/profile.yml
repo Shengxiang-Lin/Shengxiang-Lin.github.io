@@ -28,7 +28,7 @@ orcid: 0009-0006-5550-1488
 short_bio: >-
   Hi, I am <strong>Shengxiang Lin (林圣翔)</strong>, an incoming Ph.D. student at Zhejiang University advised by Prof. <a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">Xiaolin Zheng</a>.
   I am currently completing my B.Eng. in Computer Science and Technology (Qian Xuesen Honor Program) at Xi'an Jiaotong University (2022-2026).
-  I completed the Berkeley Global Access Program as a visiting student at UC Berkeley in 2024.    
+  Funded by a prestigious national funding, I undertook studies as a visiting student at UC Berkeley through the Berkeley Global Access Program in 2024.   
   <br> My research interests primarily focus on <strong>Artificial Intelligence</strong>.
   <br> <span style="color: red; font-style: italic;">Feel free to contact me if you are interested in discussing or collaborating with me.</span>  
 #  I shared some of the datasets and model weights used by the project at <a href="https://huggingface.co/wangrongsheng">🔗HuggingFace</a>. I likewise like to post some small-parameter LM at <a href="https://ollama.com/wangrongsheng">🔗Ollama</a> to help people use it locally.
