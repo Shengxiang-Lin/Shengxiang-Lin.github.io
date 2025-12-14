@@ -14,7 +14,7 @@ num_selected: 10
     publications=pubs limit=page.num_selected 
     title='<i class="fas fa-star"></i> Selected Publications'
 %}
-{% assign featured_projects = site.projects | where: "featured", true | sort: "date" | reverse %}
+<!--{% assign featured_projects = site.projects | where: "featured", true | sort: "date" | reverse %}
 {% 
     include widgets/project_card.html 
     projects=featured_projects 
@@ -22,7 +22,7 @@ num_selected: 10
     title='<i class="fas fa-star"></i> Featured Projects'
     show_all_link=true
 %}
-<!--<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=99b2b5&w=200&t=tt&d=w1jsZcYWX6uhqj7qrDV6Yu5EWXmHKKNJ4FzY6TnXcWs&co=f8f9fa&ct=b32b42'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=99b2b5&w=200&t=tt&d=w1jsZcYWX6uhqj7qrDV6Yu5EWXmHKKNJ4FzY6TnXcWs&co=f8f9fa&ct=b32b42'></script>
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=t9BPgPHDgUw5SZWPUG-8RQNk3k4SmO_ASvdhmfeOlEk&cl=8CA6B1&w=a&w=200&t=tt&co=f8f9fa&ct=b32b42"></script>-->
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=rJdEXz9sDTMps2mkbDSPjQIBhsnR9kFY1BGJgSurDFA&w=100"></script>
