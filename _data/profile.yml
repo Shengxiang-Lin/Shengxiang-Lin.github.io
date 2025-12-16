@@ -71,7 +71,7 @@ service:
 awards:
 - name: Outstanding students, Xi’an Jiaotong University
   date: 2025.12 
-- name: National Scholarship (Top 0.2% nationwide), Ministry of Education of the People’s Republic of China
+- name: National Scholarship (Top 0.2% undergraduate students nationwide), Ministry of Education of the People’s Republic of China
   date: 2025.12 
 - name: Second Award (ranking in the Top 3%), Blue Bridge Cup National Software and Information Technology Professional Talent Competition National Finals, C/C++ Programming University Group A
   date: 2025.06
@@ -106,7 +106,7 @@ awards:
 - name: Outstanding students, Xi’an Jiaotong University
   date: 2023.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20students%2C%20Xi%E2%80%99an%20Jiaotong%20University.pdf"
-- name: National Scholarship (Top 0.2% nationwide), Ministry of Education of the People’s Republic of China
+- name: National Scholarship (Top 0.2% undergraduate students nationwide), Ministry of Education of the People’s Republic of China
   date: 2023.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/National%20Scholarship.pdf"
 - name: Silver Award, The 2022 ICPC Asia Xi’an Regional Contest
