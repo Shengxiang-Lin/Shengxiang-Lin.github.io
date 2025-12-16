@@ -71,9 +71,9 @@ service:
 awards:
 - name: Outstanding students, Xi’an Jiaotong University
   date: 2025.12 
-- name: National Scholarship, Ministry of Education of the People’s Republic of China
+- name: National Scholarship (Top 0.2% nationwide), Ministry of Education of the People’s Republic of China
   date: 2025.12 
-- name: Second Award, Blue Bridge Cup National Software and Information Technology Professional Talent Competition National Finals, C/C++ Programming University Group A
+- name: Second Award (ranking in the Top 3%), Blue Bridge Cup National Software and Information Technology Professional Talent Competition National Finals, C/C++ Programming University Group A
   date: 2025.06
   url: "https://Shengxiang-Lin.github.io/assets/cv/Second%20Award%2C%20Blue%20Bridge%20Cup%20National%20Finals%20C%2B%2B%20Programming%20University%20Group%20A.pdf"
 - name: Silver Award (ranking 44th out of 392 teams), The 2025 ICPC China National Invitational Programming Contest (Nanchang)
@@ -88,13 +88,13 @@ awards:
 - name: Outstanding students, Xi’an Jiaotong University
   date: 2024.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20Student.pdf"
-- name: Huawei Scholarship, Xi’an Jiaotong University & Huawei Technologies Co., Ltd
+- name: Huawei Scholarship (3 undergraduate students annually), Xi’an Jiaotong University & Huawei Technologies Co., Ltd
   date: 2024.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Huawei%20scholarship.pdf"
 - name: First Award, China Undergraduate Mathematical Contest in Modeling (CUMCM) Shaanxi Region
   date: 2024.09
   url: "https://Shengxiang-Lin.github.io/assets/cv/First%20Award%2CNational%20University%20Student%20Mathematical%20Modeling%20Competition%20Shaanxi%20Region.pdf"
-- name: Third Award, Blue Bridge Cup National Software and Information Technology Professional Talent Competition National Finals, C/C++ Programming University Group A
+- name: Third Award (ranking in the Top 6%), Blue Bridge Cup National Software and Information Technology Professional Talent Competition National Finals, C/C++ Programming University Group A
   date: 2024.06
   url: "https://Shengxiang-Lin.github.io/assets/cv/Third%20Award%2C%20Blue%20Bridge%20Cup%20National%20Finals%20C%2B%2B%20Programming%20University%20Group%20A.pdf"
 - name: Outstanding League members, Xi’an Jiaotong University
@@ -106,7 +106,7 @@ awards:
 - name: Outstanding students, Xi’an Jiaotong University
   date: 2023.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20students%2C%20Xi%E2%80%99an%20Jiaotong%20University.pdf"
-- name: National Scholarship, Ministry of Education of the People’s Republic of China
+- name: National Scholarship (Top 0.2% nationwide), Ministry of Education of the People’s Republic of China
   date: 2023.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/National%20Scholarship.pdf"
 - name: Silver Award, The 2022 ICPC Asia Xi’an Regional Contest
