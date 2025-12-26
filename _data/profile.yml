@@ -69,26 +69,28 @@ service:
     
 
 awards:
+- name: Second Prize (Top 500 Nationwide), CCF Algorithm Competency Contest (CACC) Regional Competition
+  date: 2025.12 
 - name: Outstanding students, Xi’an Jiaotong University
   date: 2025.12 
-- name: National Scholarship (Top 0.2% undergraduate students nationwide), Ministry of Education of the People’s Republic of China
+- name: National Scholarship (Top 0.4% Undergraduate Students Nationwide), Ministry of Education of the People’s Republic of China
   date: 2025.12 
 - name: Second Award, Blue Bridge Cup National Software and Information Technology Professional Talent Competition National Finals, C/C++ Programming University Group A
   date: 2025.06
   url: "https://Shengxiang-Lin.github.io/assets/cv/Second%20Award%2C%20Blue%20Bridge%20Cup%20National%20Finals%20C%2B%2B%20Programming%20University%20Group%20A.pdf"
-- name: Silver Award (ranking 44th out of 392 teams), The 2025 ICPC China National Invitational Programming Contest (Nanchang)
+- name: Silver Award (Ranking 44th Out of 392 Teams), The 2025 ICPC China National Invitational Programming Contest (Nanchang)
   date: 2025.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Silver%20Award%2C%20The%202025%20ICPC%20China%20Nanchang%20National%20Invitational%20Programming%20Contest.pdf"
-- name: Glod Award (ranking 13th out of 151 teams), The 2025 ICPC China Shaanxi Provincial Programming Contest
+- name: Glod Award (Ranking 13th Out of 151 Teams), The 2025 ICPC China Shaanxi Provincial Programming Contest
   date: 2025.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Glod%20Award%2CThe%202025-2026%20ICPC%20China%20Shaanxi%20Provincial%20Programming%20Contest.pdf"
-- name: Personal Second Prize (ranking in the Top 4%), Group Programming Ladder Tournament (GPLT) National Finals
+- name: Personal Second Prize (Top 4% Nationwide), Group Programming Ladder Tournament (GPLT) National Finals
   date: 2025.04
   url: "https://Shengxiang-Lin.github.io/assets/cv/2025%20Team%20Programming%20Ladder%20Competition%20National%20Finals.pdf"
 - name: Outstanding students, Xi’an Jiaotong University
   date: 2024.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20Student.pdf"
-- name: Huawei Scholarship (3 undergraduate students annually), Xi’an Jiaotong University & Huawei Technologies Co., Ltd
+- name: Huawei Scholarship (3 Undergraduate Students Annually), Xi’an Jiaotong University & Huawei Technologies Co., Ltd
   date: 2024.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Huawei%20scholarship.pdf"
 - name: First Award, China Undergraduate Mathematical Contest in Modeling (CUMCM) Shaanxi Region
@@ -100,13 +102,13 @@ awards:
 - name: Outstanding League members, Xi’an Jiaotong University
   date: 2024.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20League%20members%2C%20Xi%E2%80%99an.pdf"
-- name: Personal Second Prize (ranking in the Top 4%), Group Programming Ladder Tournament (GPLT) National Finals
+- name: Personal Second Prize (Top 4% Nationwide), Group Programming Ladder Tournament (GPLT) National Finals
   date: 2024.04
   url: "https://Shengxiang-Lin.github.io/assets/cv/Personal%20Second%20Prize%2C%20Group%20Programming%20Ladder%20Tourn.pdf"
 - name: Outstanding students, Xi’an Jiaotong University
   date: 2023.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20students%2C%20Xi%E2%80%99an%20Jiaotong%20University.pdf"
-- name: National Scholarship (Top 0.2% undergraduate students nationwide), Ministry of Education of the People’s Republic of China
+- name: National Scholarship (Top 0.2% Undergraduate Students Nationwide), Ministry of Education of the People’s Republic of China
   date: 2023.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/National%20Scholarship.pdf"
 - name: Silver Award, The 2022 ICPC Asia Xi’an Regional Contest
