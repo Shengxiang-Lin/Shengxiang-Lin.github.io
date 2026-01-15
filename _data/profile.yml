@@ -71,6 +71,7 @@ service:
 awards:
 - name: Second Award (National Top 500 Finalist), China Algorithm Capability Competition (CACC) Regional
   date: 2025.12 
+  url: "https://Shengxiang-Lin.github.io/assets/cv/cacc-second-award.pdf"  
 - name: Outstanding students, Xi’an Jiaotong University
   date: 2025.12 
 - name: National Scholarship (Top 0.4% Undergraduate Students Nationwide), Ministry of Education of the People’s Republic of China
