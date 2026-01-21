@@ -58,12 +58,15 @@ education:
 experience:
   - name: Intelligent Service Innovation Center @ZJU
     logo: assets/images/badges/ISICenter.webp
-    position: Student Researcher
+    position: Student Researcher, Supervised by Prof. <a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">Xiaolin Zheng</a>
     date: 2025.07 - present
+  - name: Shaanxi Provincial Key Laboratory of Big Data Knowledge Engineering
+    logo: assets/images/badges/BDKElab.webp
+    position: Student Researcher, Supervised by Prof. <a href="https://www.xjtu.edu.cn/jsnr.jsp?wbtreeid=1632&wbwbxjtuteacherid=1473">Feng Tian</a>
+    date: 2025.11 - present
   - name: Innovative Talents Science Training Program
     logo: assets/images/badges/itstp_logo.webp
-    url: "https://baike.baidu.com/item/%E5%9B%BD%E9%99%85%E5%8C%96%E6%8B%94%E5%B0%96%E5%88%9B%E6%96%B0%E4%BA%BA%E6%89%8D%E5%9F%B9%E5%85%BB%E8%AE%A1%E5%88%92/63608251"
-    position: Research Internship
+    position: Research Internship, Supervised by Prof. <a href="https://physics.mit.edu/faculty/gunther-roland/">Gunther Roland</a>
     date: 2024.07 - 2024.09
     
 service:
