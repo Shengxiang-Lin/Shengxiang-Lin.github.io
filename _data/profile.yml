@@ -26,7 +26,7 @@ resume: assets/cv/Resume_Shengxiang_Lin.pdf
 orcid: 0009-0006-5550-1488
 
 short_bio: >-
-  Hi, I am <strong>Shengxiang Lin (林圣翔)</strong>, an incoming Ph.D. student at Zhejiang University advised by Prof. <a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">Xiaolin Zheng</a>.
+  Hi, I am <strong>Shengxiang Lin (林圣翔)</strong>, an incoming Ph.D. student majoring in Artificial Intelligence at Zhejiang University and doing research at <strong>Intelligent Service Innovation Center (ISICenter) @ZJU</strong>, advised by Prof. <a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">Xiaolin Zheng</a>.
   I am currently completing my B.Eng. in Computer Science and Technology (Qian Xuesen Honor Program) at Xi'an Jiaotong University (2022-2026).
   In 2024, I completed the Berkeley Global Access Program as a nationally funded visiting student at UC Berkeley.   
   <br> My research interests primarily focus on <strong>Artificial Intelligence</strong>.
@@ -56,6 +56,10 @@ education:
     date: 2022.09 - 2026.06
 
 experience:
+  - name: Intelligent Service Innovation Center @ZJU
+    logo: assets/images/badges/ISICenter.webp
+    position: Ph.D. Student Researcher
+    date: 2026.09 - present
   - name: Innovative Talents Science Training Program
     logo: assets/images/badges/itstp_logo.webp
     url: "https://baike.baidu.com/item/%E5%9B%BD%E9%99%85%E5%8C%96%E6%8B%94%E5%B0%96%E5%88%9B%E6%96%B0%E4%BA%BA%E6%89%8D%E5%9F%B9%E5%85%BB%E8%AE%A1%E5%88%92/63608251"
