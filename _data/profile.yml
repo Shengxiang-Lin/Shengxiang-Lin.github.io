@@ -26,7 +26,7 @@ resume: assets/cv/Resume_Shengxiang_Lin.pdf
 orcid: 0009-0006-5550-1488
 
 short_bio: >-
-  Hi, I am <strong>Shengxiang Lin (林圣翔)</strong>, an incoming Ph.D. student majoring in Artificial Intelligence at Zhejiang University and doing research at <strong>Intelligent Service Innovation Center (ISICenter) @ZJU</strong>, advised by Prof. <a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">Xiaolin Zheng</a>.
+  Hi, I am <strong>Shengxiang Lin (林圣翔)</strong>, an incoming Ph.D. student majoring in Artificial Intelligence at Zhejiang University and doing research at <strong>Intelligent Service Innovation Center (ISICenter@ZJU) </strong>, advised by Prof. <a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">Xiaolin Zheng</a>.
   I am currently completing my B.Eng. in Computer Science and Technology (Qian Xuesen Honor Program) at Xi'an Jiaotong University (2022-2026).
   In 2024, I completed the Berkeley Global Access Program as a nationally funded visiting student at UC Berkeley.   
   <br> My research interests primarily focus on <strong>Artificial Intelligence</strong>.
@@ -61,7 +61,7 @@ experience:
     position: Student Researcher, Supervised by Prof. <a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">Xiaolin Zheng</a>
     date: 2025.07 - present
   - name: Shaanxi Provincial Key Laboratory of Big Data Knowledge Engineering
-    logo: assets/images/badges/BDKElab.webp
+    logo: assets/images/badges/BDKElab2.webp
     position: Student Researcher, Supervised by Prof. <a href="https://www.xjtu.edu.cn/jsnr.jsp?wbtreeid=1632&wbwbxjtuteacherid=1473">Feng Tian</a>
     date: 2025.11 - present
   - name: Innovative Talents Science Training Program
