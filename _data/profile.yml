@@ -36,7 +36,7 @@ short_bio: >-
 show_portrait: true
 portrait_url: assets/images/photos/profile_lsx2.jpg
 portrait_caption: >-
-  I'm Lin Shengxiang. Welcome to my homepage!
+  I'm Shengxiang Lin. Welcome to my homepage!
 
 education:
   - name: Zhejiang University
@@ -125,7 +125,7 @@ awards:
 
 
 news:
-  - name: Seeking 100 Global Elites, Zhenhai Youth Rise to Meet the Era (CYLC Zhenhai Committee, Ningbo)
+  - name: Seeking Global Elites, Zhenhai Youth Rise to Meet the Era (CYLC Zhenhai Committee, Ningbo)
     date: 2026.01
     url: "https://mp.weixin.qq.com/s/tzXz2JcK0pAh5kuk59YzGw"
   - name: Spotlight on National Scholarship Recipients (Zhenhai High School of Ningbo)
