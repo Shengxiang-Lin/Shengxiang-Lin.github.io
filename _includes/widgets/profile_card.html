@@ -11,7 +11,7 @@
                             {{ position }}<br/>
                             {% endfor %}
                             {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link }}"><i class="fas fa-file-alt"></i> [Curriculum Vitae]</a> <br/>
+                            <a target="_blank" href="{{ site.data.profile.cv_link }}"><i class="fas fa-file-alt"></i> [{% include i18n.html key="cv" %}]</a> <br/>
                             {% endif %}
                         </p>
                         <!-- 将联系方式放在原short-bio的位置 -->
@@ -129,7 +129,7 @@
                     {% if site.data.profile.short_bio %}
                     <div class="col-md-12">
                         <div class="my-1">
-                            <h6><i class="fas fa-id-card"></i> &nbsp; Short-bio</h6>
+                            <h6><i class="fas fa-id-card"></i> &nbsp; <span class="lang-en">Short-bio</span><span class="lang-zh">个人简介</span></h6>
                             <div class="mx-2">
                                 {{ site.data.profile.short_bio }}
                             </div>
@@ -154,7 +154,7 @@
             </div>
             {% endif %}
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">{% include i18n.html key="close" %}</button>
             </div>
         </div>
     </div>
