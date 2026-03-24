@@ -8,7 +8,10 @@
                         <p class="h1 font-weight-normal" style="font-family: '行楷', 'STXingkai', 'Xingkai SC', serif; display: inline-block; margin-left: 20px;">{{ site.data.profile.secondary_name }}</p>
                         <p class="text-profile-position">
                             {% for position in site.data.profile.positions %}
-                            {{ position }}<br/>
+                            <span class="lang-en">{{ position }}</span><br/>
+                            {% endfor %}
+                            {% for position in site.data.profile.positions_zh %}
+                            <span class="lang-zh">{{ position }}</span><br/>
                             {% endfor %}
                             {% if site.data.profile.cv_link %}
                             <a target="_blank" href="{{ site.data.profile.cv_link }}"><i class="fas fa-file-alt"></i> [{% include i18n.html key="cv" %}]</a> <br/>
@@ -23,77 +26,77 @@
 
                                 {% if site.data.profile.gscholar %}
                                 <a class="pr-3 no-break" target="_blank" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en">
-                                    <i class="fab fa-google"></i> Google Scholar
+                                    <i class="fab fa-google"></i> <span class="lang-en">Google Scholar</span><span class="lang-zh">谷歌学术</span>
                                 </a>
                                 {% endif %}
 
                                 {% if site.data.profile.sscholar %}
                                 <a class="pr-3 no-break" target="_blank" href="https://www.semanticscholar.org/author/{{ site.data.profile.sscholar }}">
-                                    <i class="fa fa-book"></i> Semantic Scholar
+                                    <i class="fa fa-book"></i> <span class="lang-en">Semantic Scholar</span><span class="lang-zh">语义学者</span>
                                 </a>
                                 {% endif %}
 
                                 {% if site.data.profile.openreview %}
                                 <a class="pr-3 no-break" target="_blank" href="https://openreview.net/profile?id={{ site.data.profile.openreview }}">
-                                    <i class="fas fa-comments"></i> OpenReview
+                                    <i class="fas fa-comments"></i> <span class="lang-en">OpenReview</span><span class="lang-zh">开放评审</span>
                                 </a>
                                 {% endif %}
                                 
                                 {% if site.data.profile.github %}
                                 <a class="pr-3 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
-                                    <i class="fab fa-github"></i> GitHub
+                                    <i class="fab fa-github"></i> <span class="lang-en">GitHub</span><span class="lang-zh">GitHub</span>
                                 </a> 
                                 {% endif %}
                                 
                                 {% if site.data.profile.orcid %}
                                 <a class="pr-3 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
-                                    <i class="fab fa-orcid"></i> ORCID
+                                    <i class="fab fa-orcid"></i> <span class="lang-en">ORCID</span><span class="lang-zh">ORCID</span>
                                 </a>
                                 {% endif %}
                                 
                                 {% if site.data.profile.instagram %}
                                 <a class="pr-3 no-break" target="_blank" href="https://www.instagram.com/{{ site.data.profile.instagram }}">
-                                    <i class="fab fa-instagram"></i> Instagram
+                                    <i class="fab fa-instagram"></i> <span class="lang-en">Instagram</span><span class="lang-zh">Instagram</span>
                                 </a>
                                 {% endif %}
                                 
                                 {% if site.data.profile.qq_qrcode %}
                                 <a class="pr-3 no-break" data-toggle="modal" data-target="#modal-qq">
-                                    <i class="fab fa-qq"></i> QQ
+                                    <i class="fab fa-qq"></i> <span class="lang-en">QQ</span><span class="lang-zh">QQ</span>
                                 </a>
                                 {% endif %}
                                 
                                 {% if site.data.profile.wechat_qrcode %}
                                 <a class="pr-3 no-break" data-toggle="modal" data-target="#modal-wechat">
-                                    <i class="fab fa-weixin"></i> WeChat
+                                    <i class="fab fa-weixin"></i> <span class="lang-en">WeChat</span><span class="lang-zh">微信</span>
                                 </a>
                                 {% endif %}
 
                                 {% if site.data.profile.x %}
                                 <a class="pr-3 no-break" target="_blank" href="https://x.com/{{ site.data.profile.x }}">
-                                    <i class="fab fa-twitter"></i> X
+                                    <i class="fab fa-twitter"></i> <span class="lang-en">X</span><span class="lang-zh">X</span>
                                 </a>
                                 {% endif %}
                                 {% if site.data.profile.facebook %}
                                 <a class="pr-3 no-break" target="_blank" href="https://www.facebook.com/{{ site.data.profile.facebook }}">
-                                    <i class="fab fa-facebook"></i> Facebook
+                                    <i class="fab fa-facebook"></i> <span class="lang-en">Facebook</span><span class="lang-zh">Facebook</span>
                                 </a>
                                 {% endif %}
                                 {% if site.data.profile.zhihu %}
                                 <a class="pr-3 no-break" target="_blank" href="https://www.zhihu.com/people/{{ site.data.profile.zhihu }}">
-                                    <i class="fab fa-zhihu"></i> ZhiHu
+                                    <i class="fab fa-zhihu"></i> <span class="lang-en">ZhiHu</span><span class="lang-zh">知乎</span>
                                 </a>
                                 {% endif %}
 
                                 {% if site.data.profile.resume %}
                                 <a class="pr-3 no-break" target="_blank" href="https://Shengxiang-Lin.github.io/{{ site.data.profile.resume }}">
-                                    <i class="fa fa-file"></i> Resume
+                                    <i class="fa fa-file"></i> <span class="lang-en">Resume</span><span class="lang-zh">简历</span>
                                 </a>
                                 {% endif %}
 
                                 {% if site.data.profile.linkedin %}
                                 <a class="pr-3 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
-                                    <i class="fab fa-linkedin"></i> LinkedIn
+                                    <i class="fab fa-linkedin"></i> <span class="lang-en">LinkedIn</span><span class="lang-zh">LinkedIn</span>
                                 </a>
                                 {% endif %}
 
@@ -131,7 +134,8 @@
                         <div class="my-1">
                             <h6><i class="fas fa-id-card"></i> &nbsp; <span class="lang-en">Short-bio</span><span class="lang-zh">个人简介</span></h6>
                             <div class="mx-2">
-                                {{ site.data.profile.short_bio }}
+                                <span class="lang-en">{{ site.data.profile.short_bio }}</span>
+                                <span class="lang-zh">{{ site.data.profile.short_bio_zh }}</span>
                             </div>
                         </div>
                     </div>
@@ -174,7 +178,7 @@
             </div>
             {% endif %}
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">{% include i18n.html key="close" %}</button>
             </div>
         </div>
     </div>

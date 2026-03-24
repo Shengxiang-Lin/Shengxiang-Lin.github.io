@@ -19,9 +19,9 @@
                                             <img src="{{ item.logo }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
                                         {% endif %}
                                         <div class="media-body">
-                                            <p class="my-0">{{ item.name }}</p>
+                                            <p class="my-0"><span class="lang-en">{{ item.name }}</span><span class="lang-zh">{{ site.data.profile.education_zh[forloop.index0].name }}</span></p>
                                             <p class="small my-0">{{ item.dept }}</p>
-                                            <p class="small my-0">{{ item.position }} <em class="float-right">{{ item.date }}</em></p>
+                                            <p class="small my-0"><span class="lang-en">{{ item.position }}</span><span class="lang-zh">{{ site.data.profile.education_zh[forloop.index0].position }}</span> <em class="float-right">{{ item.date }}</em></p>
                                         </div>
                                     </li>
                                     {% endfor %}

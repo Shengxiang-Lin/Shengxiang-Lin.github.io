@@ -5,6 +5,11 @@ positions:
   - '<span class="no-break"><img src="assets/images/badges/zju_logo.webp" alt="Zhejiang University" class="inline-badge"/></span> Ph.D Student, Zhejiang University (2026)'
   - <i class="fas fa-user-graduate"></i> &nbsp;Artificial Intelligence Academic Researcher
   - <i class="fas fa-map-marker-alt"></i> &nbsp; Xingqing Campus, 28 Xianning West Road, Xi'an City, Shaanxi Province
+
+positions_zh:
+  - '<span class="no-break"><img src="assets/images/badges/zju_logo.webp" alt="浙江大学" class="inline-badge"/></span> 博士研究生，浙江大学 (2026)'
+  - <i class="fas fa-user-graduate"></i> &nbsp;人工智能学术研究者
+  - <i class="fas fa-map-marker-alt"></i> &nbsp; 兴庆校区，咸宁西路28号，陕西省西安市
 email: "reallinshengxiang@gmail.com"
 gscholar: W-rloDsAAAAJ
 #sscholar: Shengxiang-Lin/2325483397
@@ -30,13 +35,23 @@ short_bio: >-
   I am currently completing my B.Eng. in Computer Science and Technology (Qian Xuesen Honor Program) at Xi'an Jiaotong University (2022-2026).
   In 2024, I completed the Berkeley Global Access Program as a nationally funded visiting student at UC Berkeley.   
   <br> My research interests primarily focus on <strong>Artificial Intelligence</strong>.
-  <br> <span style="color: red; font-style: italic;">Feel free to contact me if you are interested in discussing or collaborating with me.</span>  
+  <br> <span style="color: red; font-style: italic;">Feel free to contact me if you are interested in discussing or collaborating with me.</span>
+
+short_bio_zh: >-
+  你好，我是<strong>林圣翔 (Shengxiang Lin)</strong>，即将就读浙江大学人工智能专业的博士研究生，并在<strong>智能服务创新中心 (ISICenter@ZJU)</strong>进行研究，导师为<a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">郑小林教授</a>。
+  我目前正在西安交通大学计算机科学与技术专业（国家拔尖计划）完成我的学士学位（2022-2026）。
+  2024年，我作为国家资助的访问学生完成了加州大学伯克利分校的伯克利全球访问项目。
+  <br> 我的研究兴趣主要集中在<strong>人工智能</strong>领域。
+  <br> <span style="color: red; font-style: italic;">如果您有兴趣与我讨论或合作，请随时与我联系。</span>  
 #  I shared some of the datasets and model weights used by the project at <a href="https://huggingface.co/wangrongsheng">🔗HuggingFace</a>. I likewise like to post some small-parameter LM at <a href="https://ollama.com/wangrongsheng">🔗Ollama</a> to help people use it locally.
 
 show_portrait: true
 portrait_url: assets/images/photos/profile_lsx2.jpg
 portrait_caption: >-
   I'm Shengxiang Lin. Welcome to my homepage!
+
+portrait_caption_zh: >-
+  我是林圣翔。欢迎来到我的主页！
 
 education:
   - name: Zhejiang University
@@ -55,6 +70,23 @@ education:
     position: B.S. in Computer Science and Technology (Qian Xuesen Honor Class), Faculty of Electronic and Information Engineering
     date: 2022.09 - 2026.06
 
+education_zh:
+  - name: 浙江大学
+    logo: assets/images/badges/zju_logo.webp
+    url: "https://www.zju.edu.cn/"
+    position: 人工智能专业博士研究生，计算机科学与技术学院
+    date: 2026.09 - 2031.06
+  - name: 加州大学伯克利分校
+    logo: assets/images/badges/ucb_logo.webp
+    url: "https://www.berkeley.edu/"
+    position: 访问学生，BGA交流项目
+    date: 2024.08 - 2024.12
+  - name: 西安交通大学
+    logo: assets/images/badges/xjtu_logo.webp
+    url: "https://www.xjtu.edu.cn/"
+    position: 计算机科学与技术专业（国家拔尖计划）学士，电子与信息学部
+    date: 2022.09 - 2026.06
+
 experience:
   - name: Intelligent Service Innovation Center @ZJU
     logo: assets/images/badges/ISICenter.webp
@@ -68,20 +100,39 @@ experience:
     logo: assets/images/badges/itstp_logo.webp
     position: Research Internship, Supervised by Prof. <a href="https://physics.mit.edu/faculty/gunther-roland/">Gunther Roland</a>
     date: 2024.07 - 2024.09
+
+experience_zh:
+  - name: 浙江大学智能服务创新中心
+    logo: assets/images/badges/ISICenter.webp
+    position: 学生研究者，导师：<a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">郑小林教授</a>
+    date: 2025.07 - 至今
+  - name: 陕西省大数据知识工程重点实验室
+    logo: assets/images/badges/BDKElab2.webp
+    position: 学生研究者，导师：<a href="https://www.xjtu.edu.cn/jsnr.jsp?wbtreeid=1632&wbwbxjtuteacherid=1473">田锋教授</a>
+    date: 2025.11 - 至今
+  - name: 创新人才科学训练计划
+    logo: assets/images/badges/itstp_logo.webp
+    position: 研究实习生，导师：<a href="https://physics.mit.edu/faculty/gunther-roland/">Gunther Roland教授</a>
+    date: 2024.07 - 2024.09
     
 service:
   - name: "China Computer Federation: <strong>Student Member (2024,2025,2026)</strong>"
-  - name: "Berkeley TechFounders’ Technology Department: <strong>Member (2024)</strong>"
+  - name: "Berkeley TechFounders' Technology Department: <strong>Member (2024)</strong>"
   - name: "XJTU Computer Science and Technology Experimental Class Mentor Group: <strong>Minister (2023,2024,2025)</strong>"
+
+service_zh:
+  - name: "中国计算机学会：<strong>学生会员 (2024,2025,2026)</strong>"
+  - name: "伯克利科技创业者技术部门：<strong>成员 (2024)</strong>"
+  - name: "西安交通大学计学组：<strong>部长 (2023,2024,2025)</strong>"
     
 
 awards:
 - name: Second Award (National Top 500 Finalist), China Algorithm Capability Competition (CACC) Regional
   date: 2025.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/cacc-second-award.pdf"  
-- name: Outstanding students, Xi’an Jiaotong University
+- name: Outstanding students, Xi'an Jiaotong University
   date: 2025.12 
-- name: National Scholarship (Top 0.4% Undergraduates Nationwide), Ministry of Education of the People’s Republic of China
+- name: National Scholarship (Top 0.4% Undergraduates Nationwide), Ministry of Education of the People's Republic of China
   date: 2025.12 
 - name: Second Award, Blue Bridge Cup National Software and Information Technology Professional Talent Competition National Finals, C/C++ Programming University Group A
   date: 2025.06
@@ -123,6 +174,48 @@ awards:
   date: 2023.05 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Silver%20Award%2C%20The%202022%20ICPC%20Asia%20Xi%E2%80%99an%20Regional%20Contest.pdf"
 
+
+awards_zh:
+- name: 中国算法能力大赛（CACC）区域赛二等奖（全国前500名）
+  date: 2025.12 
+  url: "https://Shengxiang-Lin.github.io/assets/cv/cacc-second-award.pdf"  
+- name: 西安交通大学优秀学生
+  date: 2025.12 
+- name: 国家奖学金（全国前0.4%本科生），中华人民共和国教育部
+  date: 2025.12 
+- name: 二等奖，蓝桥杯全国软件和信息技术专业人才大赛全国总决赛，C/C++程序设计大学A组
+  date: 2025.06
+  url: "https://Shengxiang-Lin.github.io/assets/cv/Second%20Award%2C%20Blue%20Bridge%20Cup%20National%20Finals%20C%2B%2B%20Programming%20University%20Group%20A.pdf"
+- name: 2025年ICPC全国邀请赛（南昌）银奖（排名 44 /392）
+  date: 2025.05
+  url: "https://Shengxiang-Lin.github.io/assets/cv/Silver%20Award%2C%20The%202025%20ICPC%20China%20Nanchang%20National%20Invitational%20Programming%20Contest.pdf"
+- name: 2025年ICPC中国陕西省程序设计竞赛金奖（排名 13 /151）
+  date: 2025.05
+  url: "https://Shengxiang-Lin.github.io/assets/cv/Glod%20Award%2CThe%202025-2026%20ICPC%20China%20Shaanxi%20Provincial%20Programming%20Contest.pdf"
+- name: 团体程序设计天梯赛（GPLT）全国总决赛个人二等奖（全国前4%）
+  date: 2025.04
+  url: "https://Shengxiang-Lin.github.io/assets/cv/2025%20Team%20Programming%20Ladder%20Competition%20National%20Finals.pdf"
+- name: 西安交通大学优秀学生
+  date: 2024.12 
+  url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20Student.pdf"
+- name: 华为奖学金（每年3名本科生），西安交通大学 & 华为技术有限公司
+  date: 2024.12 
+  url: "https://Shengxiang-Lin.github.io/assets/cv/Huawei%20scholarship.pdf"
+- name: 中国大学生数学建模竞赛（CUMCM）陕西赛区一等奖
+  date: 2024.09
+  url: "https://Shengxiang-Lin.github.io/assets/cv/First%20Award%2CNational%20University%20Student%20Mathematical%20Modeling%20Competition%20Shaanxi%20Region.pdf"
+- name: 中国大学生程序设计竞赛（CCPC）全国总决赛C/C++程序设计大学A组三等奖，
+  date: 2024.06
+  url: "https://Shengxiang-Lin.github.io/assets/cv/Third%20Award%2C%20Blue%20Bridge%20Cup%20National%20Finals%20C%2B%2B%20Programming%20University%20Group%20A.pdf"
+- name: 西安交通大学优秀共青团员
+  date: 2024.05
+  url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20League%20members%2C%20Xi'an.pdf"
+- name: 团体程序设计天梯赛（GPLT）全国总决赛个人二等奖（全国前4%）
+  date: 2024.04
+  url: "https://Shengxiang-Lin.github.io/assets/cv/Personal%20Second%20Prize%2C%20Group%20Programming%20Ladder%20Tourn.pdf"
+- name: 西安交通大学优秀学生
+  date: 2023.12 
+  url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20students%2C%20Xi'an%20Jiaotong%20University.pdf"
 
 news:
   - name: Seeking Global Elites, Zhenhai Youth Rise to Meet the Era (CYLC Zhenhai Committee, Ningbo)
