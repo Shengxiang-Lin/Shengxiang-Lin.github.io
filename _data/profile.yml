@@ -79,12 +79,12 @@ education_zh:
   - name: 加州大学伯克利分校
     logo: assets/images/badges/ucb_logo.webp
     url: "https://www.berkeley.edu/"
-    position: 访问学生，BGA交流项目
+    position: 访问学生，UCBX国际交流项目
     date: 2024.08 - 2024.12
   - name: 西安交通大学
     logo: assets/images/badges/xjtu_logo.webp
     url: "https://www.xjtu.edu.cn/"
-    position: 计算机科学与技术专业（国家拔尖计划）学士，电子与信息学部
+    position: 计算机科学与技术专业学士（钱学森荣誉班），电子与信息工程学院
     date: 2022.09 - 2026.06
 
 experience:
@@ -104,11 +104,11 @@ experience:
 experience_zh:
   - name: 浙江大学智能服务创新中心
     logo: assets/images/badges/ISICenter.webp
-    position: 学生研究者，导师：<a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">郑小林教授</a>
+    position: 学生研究员，导师：<a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">郑小林教授</a>
     date: 2025.07 - 至今
   - name: 陕西省大数据知识工程重点实验室
     logo: assets/images/badges/BDKElab2.webp
-    position: 学生研究者，导师：<a href="https://www.xjtu.edu.cn/jsnr.jsp?wbtreeid=1632&wbwbxjtuteacherid=1473">田锋教授</a>
+    position: 学生研究员，导师：<a href="https://www.xjtu.edu.cn/jsnr.jsp?wbtreeid=1632&wbwbxjtuteacherid=1473">田锋教授</a>
     date: 2025.11 - 至今
   - name: 创新人才科学训练计划
     logo: assets/images/badges/itstp_logo.webp
@@ -123,9 +123,8 @@ service:
 service_zh:
   - name: "中国计算机学会：<strong>学生会员 (2024,2025,2026)</strong>"
   - name: "伯克利科技创业者技术部门：<strong>成员 (2024)</strong>"
-  - name: "西安交通大学计学组：<strong>部长 (2023,2024,2025)</strong>"
+  - name: "西安交通大学计算机科学与技术实验班导师组：<strong>部长 (2023,2024,2025)</strong>"
     
-
 awards:
 - name: Second Award (National Top 500 Finalist), China Algorithm Capability Competition (CACC) Regional
   date: 2025.12 
@@ -174,48 +173,60 @@ awards:
   date: 2023.05 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Silver%20Award%2C%20The%202022%20ICPC%20Asia%20Xi%E2%80%99an%20Regional%20Contest.pdf"
 
-
 awards_zh:
-- name: 中国算法能力大赛（CACC）区域赛二等奖（全国前500名）
+- name: 二等奖（全国前500名决赛选手），中国算法能力大赛（CACC）区域赛
   date: 2025.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/cacc-second-award.pdf"  
-- name: 西安交通大学优秀学生
+- name: 优秀学生，西安交通大学
   date: 2025.12 
 - name: 国家奖学金（全国前0.4%本科生），中华人民共和国教育部
   date: 2025.12 
 - name: 二等奖，蓝桥杯全国软件和信息技术专业人才大赛全国总决赛，C/C++程序设计大学A组
   date: 2025.06
   url: "https://Shengxiang-Lin.github.io/assets/cv/Second%20Award%2C%20Blue%20Bridge%20Cup%20National%20Finals%20C%2B%2B%20Programming%20University%20Group%20A.pdf"
-- name: 2025年ICPC全国邀请赛（南昌）银奖（排名 44 /392）
+- name: 银奖（排名第44名/392支队伍），2025年ICPC中国国家邀请赛（南昌）
   date: 2025.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Silver%20Award%2C%20The%202025%20ICPC%20China%20Nanchang%20National%20Invitational%20Programming%20Contest.pdf"
-- name: 2025年ICPC中国陕西省程序设计竞赛金奖（排名 13 /151）
+- name: 金奖（排名第13名/151支队伍），2025年ICPC中国陕西省程序设计竞赛
   date: 2025.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Glod%20Award%2CThe%202025-2026%20ICPC%20China%20Shaanxi%20Provincial%20Programming%20Contest.pdf"
-- name: 团体程序设计天梯赛（GPLT）全国总决赛个人二等奖（全国前4%）
+- name: 个人二等奖（全国前4%），团体程序设计天梯赛（GPLT）全国总决赛
   date: 2025.04
   url: "https://Shengxiang-Lin.github.io/assets/cv/2025%20Team%20Programming%20Ladder%20Competition%20National%20Finals.pdf"
-- name: 西安交通大学优秀学生
+- name: 优秀学生，西安交通大学
   date: 2024.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20Student.pdf"
 - name: 华为奖学金（每年3名本科生），西安交通大学 & 华为技术有限公司
   date: 2024.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Huawei%20scholarship.pdf"
-- name: 中国大学生数学建模竞赛（CUMCM）陕西赛区一等奖
+- name: 一等奖，中国大学生数学建模竞赛（CUMCM）陕西赛区
   date: 2024.09
   url: "https://Shengxiang-Lin.github.io/assets/cv/First%20Award%2CNational%20University%20Student%20Mathematical%20Modeling%20Competition%20Shaanxi%20Region.pdf"
-- name: 中国大学生程序设计竞赛（CCPC）全国总决赛C/C++程序设计大学A组三等奖，
+- name: 三等奖，蓝桥杯全国软件和信息技术专业人才大赛全国总决赛，C/C++程序设计大学A组
   date: 2024.06
   url: "https://Shengxiang-Lin.github.io/assets/cv/Third%20Award%2C%20Blue%20Bridge%20Cup%20National%20Finals%20C%2B%2B%20Programming%20University%20Group%20A.pdf"
-- name: 西安交通大学优秀共青团员
+- name: 优秀共青团员，西安交通大学
   date: 2024.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20League%20members%2C%20Xi'an.pdf"
-- name: 团体程序设计天梯赛（GPLT）全国总决赛个人二等奖（全国前4%）
+- name: 个人二等奖（全国前4%），团体程序设计天梯赛（GPLT）全国总决赛
   date: 2024.04
   url: "https://Shengxiang-Lin.github.io/assets/cv/Personal%20Second%20Prize%2C%20Group%20Programming%20Ladder%20Tourn.pdf"
-- name: 西安交通大学优秀学生
+- name: 优秀学生，西安交通大学
   date: 2023.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20students%2C%20Xi'an%20Jiaotong%20University.pdf"
+- name: 国家奖学金（全国前0.2%本科生），中华人民共和国教育部
+  date: 2023.12 
+  url: "https://Shengxiang-Lin.github.io/assets/cv/National%20Scholarship.pdf"
+- name: 银奖，2022年ICPC亚洲西安区域赛
+  date: 2023.05 
+  url: "https://Shengxiang-Lin.github.io/assets/cv/Silver%20Award%2C%20The%202022%20ICPC%20Asia%20Xi%E2%80%99an%20Regional%20Contest.pdf"
+- name: National Scholarship (Top 0.2% Undergraduates Nationwide), Ministry of Education of the People's Republic of China
+  date: 2023.12 
+  url: "https://Shengxiang-Lin.github.io/assets/cv/National%20Scholarship.pdf"
+- name: Silver Award, The 2022 ICPC Asia Xi'an Regional Contest
+  date: 2023.05 
+  url: "https://Shengxiang-Lin.github.io/assets/cv/Silver%20Award%2C%20The%202022%20ICPC%20Asia%20Xi%E2%80%99an%20Regional%20Contest.pdf"
+
 
 news:
   - name: Seeking Global Elites, Zhenhai Youth Rise to Meet the Era (CYLC Zhenhai Committee, Ningbo)
@@ -252,8 +263,46 @@ news:
     date: 2023.06
     url: "https://mp.weixin.qq.com/s?__biz=MzI0NzExMjIwMQ==&mid=2650995705&idx=1&sn=f11322a6904706c2d10a835ff678be17&chksm=f3f8126067368330a3d6a068e6cb13aa34e53f350b2c9736e15b85bf2acfcc04f4565ea28831&mpshare=1&scene=23&srcid=1127vDtcrvGgLvMChJ1gLelU&sharer_shareinfo=c4d6f0596af1effeae5af0902dae5ac6&sharer_shareinfo_first=c4d6f0596af1effeae5af0902dae5ac6#rd"
 
+news_zh:
+  - name: "汇聚全球英才，镇海青年勇立时代潮头（共青团镇海区委，宁波）"
+    date: 2026.01
+    url: "https://mp.weixin.qq.com/s/tzXz2JcK0pAh5kuk59YzGw"
+  - name: "国家奖学金获得者风采展示（宁波市镇海中学）"
+    date: 2026.01
+    url: "https://mp.weixin.qq.com/s?__biz=MzI4NzYyMzk5MA==&mid=2247578879&idx=1&sn=aaf1623d52355c42059c5f7483a260c0&chksm=ea603dceca8a747c037812b400390c8a2698e20836a546037c60ca4919cf290b2be63efa7f61&mpshare=1&scene=23&srcid=0109XN9lhCukfr7K932NdMZj&sharer_shareinfo=7662b087a9a397b32760b63bf16b989d&sharer_shareinfo_first=e8f4e005e168e3dd46c2f85e9ae777a7#rd"
+  - name: "入选CCF-CSP精英榜程序员，全国每年仅20人（中国计算机学会）"
+    date: "2025.10"
+    url: "https://www.ccf.org.cn/Focus/2025-10-28/850505.shtml"
+  - name: "国家级奖项，第16届蓝桥杯全国软件和信息技术专业人才大赛（西安交通大学）"
+    date: 2025.09
+    url: "https://news.xjtu.edu.cn/info/1002/224945.htm"
+  - name: "国家级奖项，第10届中国大学生程序设计竞赛天梯赛（西安交通大学）"
+    date: 2025.05
+    url: "https://news.xjtu.edu.cn/info/1009/221789.htm"
+  - name: "编程能力测试（PAT）高级满分，全国排名第一"
+    date: 2025.03
+    url: "https://Shengxiang-Lin.github.io/assets/cv/First Award, Programming Ability Test ( PAT ) Advanced Level.pdf"
+  - name: "荣获钱学森学院优秀学业导师称号"
+    date: 2024.07
+    url: "https://mp.weixin.qq.com/s?__biz=Mzg2NzE1MDM5MQ==&mid=2247489554&idx=1&sn=acae779bb118fe4405c72002bf68e688&chksm=cffa0407ba50e806d4742efc7c07867987fc4589be490c0c0f94ec60851027a92848f3a13b43&mpshare=1&scene=23&srcid=11275DglXHCM9Ko8PRdIvhZT&sharer_shareinfo=408b7c1dd19099b7d14bd26bdc0e1da2&sharer_shareinfo_first=408b7c1dd19099b7d14bd26bdc0e1da2#rd"
+  - name: "国家级奖项，第15届蓝桥杯全国软件和信息技术专业人才大赛（西安交通大学）"
+    date: 2024.06
+    url: "https://pec.xjtu.edu.cn/info/1115/4265.htm"
+  - name: "西安交通大学优秀共青团员风采展示（共青团钱学森荣誉学院委员会）"
+    date: 2024.05    
+    url: "https://mp.weixin.qq.com/s?__biz=MzkyOTU3MTcxNQ==&mid=2247487908&idx=1&sn=c9487c0bd44b93c8415f06e3837cd073&chksm=c3669065da810c6831c229fd53bb63696b61f1d484bacbdd0b4438a09d46b3f0ce4da779f90e&mpshare=1&scene=23&srcid=1116aEEVSbcCMvfBkzhwD1vy&sharer_shareinfo=8abcecfef1130d11f4090c2bda30e07a&sharer_shareinfo_first=8abcecfef1130d11f4090c2bda30e07a#rd"
+  - name: "获得CCF-CSP认证，全国排名前0.65%"
+    date: 2024.04
+    url: "https://Shengxiang-Lin.github.io/assets/cv/ccf-csp-33.pdf"
+  - name: "荣获钱学森荣誉学院优秀共青团员称号（共青团钱学森荣誉学院工作委员会）"
+    date: 2023.06
+    url: "https://mp.weixin.qq.com/s?__biz=MzI0NzExMjIwMQ==&mid=2650995705&idx=1&sn=f11322a6904706c2d10a835ff678be17&chksm=f3f8126067368330a3d6a068e6cb13aa34e53f350b2c9736e15b85bf2acfcc04f4565ea28831&mpshare=1&scene=23&srcid=1127vDtcrvGgLvMChJ1gLelU&sharer_shareinfo=c4d6f0596af1effeae5af0902dae5ac6&sharer_shareinfo_first=c4d6f0596af1effeae5af0902dae5ac6#rd"
+
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
 footer_text: >-
   Soar on celestial winds, explore uncharted stars.
+
+footer_text_zh: >-
+  风之将起，且赴山海
