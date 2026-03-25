@@ -42,7 +42,7 @@ short_bio_zh: >-
   你好，我是<strong>林圣翔 (Shengxiang Lin)</strong>，即将就读浙江大学人工智能专业的博士研究生，并在<strong>智能服务创新中心 (ISICenter@ZJU)</strong>进行研究，导师为<a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">郑小林教授</a>。
   我目前正在西安交通大学计算机科学与技术专业（国家拔尖计划）完成我的学士学位（2022-2026）。
   2024年，我作为国家资助的访问学生完成了加州大学伯克利分校的伯克利全球访问项目。
-  <br> 我的研究兴趣主要集中在<strong>人工智能</strong>领域。
+  <br> 我的研究兴趣主要集中在<strong>可信人工智能</strong>领域。
   <br> <span style="color: red; font-style: italic;">如果您有兴趣与我讨论或合作，请随时与我联系。</span>  
 #  I shared some of the datasets and model weights used by the project at <a href="https://huggingface.co/wangrongsheng">🔗HuggingFace</a>. I likewise like to post some small-parameter LM at <a href="https://ollama.com/wangrongsheng">🔗Ollama</a> to help people use it locally.
 
@@ -85,7 +85,7 @@ education_zh:
   - name: 西安交通大学
     logo: assets/images/badges/xjtu_logo.webp
     url: "https://www.xjtu.edu.cn/"
-    position: 计算机科学与技术专业学士（钱学森荣誉班），电子与信息工程学院
+    position: 计算机科学与技术专业学士（钱学森荣誉班），电子与信息学部
     date: 2022.09 - 2026.06
 
 experience:
@@ -259,13 +259,13 @@ news:
     url: "https://mp.weixin.qq.com/s?__biz=MzI0NzExMjIwMQ==&mid=2650995705&idx=1&sn=f11322a6904706c2d10a835ff678be17&chksm=f3f8126067368330a3d6a068e6cb13aa34e53f350b2c9736e15b85bf2acfcc04f4565ea28831&mpshare=1&scene=23&srcid=1127vDtcrvGgLvMChJ1gLelU&sharer_shareinfo=c4d6f0596af1effeae5af0902dae5ac6&sharer_shareinfo_first=c4d6f0596af1effeae5af0902dae5ac6#rd"
 
 news_zh:
-  - name: "寻访百位全球镇海菁英（共青团镇海区委，宁波）"
+  - name: "寻访百位全球镇海菁英（共青团宁波市镇海区委员会）"
     date: 2026.01
     url: "https://mp.weixin.qq.com/s/tzXz2JcK0pAh5kuk59YzGw"
   - name: "国家奖学金获得者风采展示（宁波市镇海中学）"
     date: 2026.01
     url: "https://mp.weixin.qq.com/s?__biz=MzI4NzYyMzk5MA==&mid=2247578879&idx=1&sn=aaf1623d52355c42059c5f7483a260c0&chksm=ea603dceca8a747c037812b400390c8a2698e20836a546037c60ca4919cf290b2be63efa7f61&mpshare=1&scene=23&srcid=0109XN9lhCukfr7K932NdMZj&sharer_shareinfo=7662b087a9a397b32760b63bf16b989d&sharer_shareinfo_first=e8f4e005e168e3dd46c2f85e9ae777a7#rd"
-  - name: "入选CCF-CSP精英榜程序员，全国每年仅20人（中国计算机学会）"
+  - name: "入选2025年度CCF-CSP高分墙（中国计算机学会）"
     date: "2025.10"
     url: "https://www.ccf.org.cn/Focus/2025-10-28/850505.shtml"
   - name: "国家级奖项，第16届蓝桥杯全国软件和信息技术专业人才大赛（西安交通大学）"
@@ -274,7 +274,7 @@ news_zh:
   - name: "国家级奖项，第10届中国大学生程序设计竞赛天梯赛（西安交通大学）"
     date: 2025.05
     url: "https://news.xjtu.edu.cn/info/1009/221789.htm"
-  - name: "编程能力测试（PAT）满分，全国排名第一"
+  - name: "PAT甲级认证满分"
     date: 2025.03
     url: "https://Shengxiang-Lin.github.io/assets/cv/First Award, Programming Ability Test ( PAT ) Advanced Level.pdf"
   - name: "钱学森书院学业辅导优秀个人表彰"
@@ -283,13 +283,13 @@ news_zh:
   - name: "国家级奖项，第15届蓝桥杯全国软件和信息技术专业人才大赛（西安交通大学）"
     date: 2024.06
     url: "https://pec.xjtu.edu.cn/info/1115/4265.htm"
-  - name: "西安交通大学优秀共青团员风采展示（共青团钱学森荣誉学院委员会）"
+  - name: "西安交通大学优秀共青团员风采展示（共青团钱学森学院委员会）"
     date: 2024.05    
     url: "https://mp.weixin.qq.com/s?__biz=MzkyOTU3MTcxNQ==&mid=2247487908&idx=1&sn=c9487c0bd44b93c8415f06e3837cd073&chksm=c3669065da810c6831c229fd53bb63696b61f1d484bacbdd0b4438a09d46b3f0ce4da779f90e&mpshare=1&scene=23&srcid=1116aEEVSbcCMvfBkzhwD1vy&sharer_shareinfo=8abcecfef1130d11f4090c2bda30e07a&sharer_shareinfo_first=8abcecfef1130d11f4090c2bda30e07a#rd"
-  - name: "获得CCF-CSP认证，全国排名前0.65%"
+  - name: "CCF-CSP认证全国排名前0.65%"
     date: 2024.04
     url: "https://Shengxiang-Lin.github.io/assets/cv/ccf-csp-33.pdf"
-  - name: "荣获钱学森荣誉学院优秀共青团员称号（共青团钱学森荣誉学院工作委员会）"
+  - name: "荣获钱学森荣誉学院优秀共青团员称号（共青团钱学森学院工委）"
     date: 2023.06
     url: "https://mp.weixin.qq.com/s?__biz=MzI0NzExMjIwMQ==&mid=2650995705&idx=1&sn=f11322a6904706c2d10a835ff678be17&chksm=f3f8126067368330a3d6a068e6cb13aa34e53f350b2c9736e15b85bf2acfcc04f4565ea28831&mpshare=1&scene=23&srcid=1127vDtcrvGgLvMChJ1gLelU&sharer_shareinfo=c4d6f0596af1effeae5af0902dae5ac6&sharer_shareinfo_first=c4d6f0596af1effeae5af0902dae5ac6#rd"
 
