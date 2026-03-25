@@ -10,6 +10,7 @@ positions_zh:
   - '<span class="no-break"><img src="assets/images/badges/zju_logo.webp" alt="浙江大学" class="inline-badge"/></span> 博士研究生，浙江大学 (2026)'
   - <i class="fas fa-user-graduate"></i> &nbsp;人工智能学术研究者
   - <i class="fas fa-map-marker-alt"></i> &nbsp; 兴庆校区，咸宁西路28号，陕西省西安市
+
 email: "reallinshengxiang@gmail.com"
 gscholar: W-rloDsAAAAJ
 #sscholar: Shengxiang-Lin/2325483397
@@ -104,11 +105,11 @@ experience:
 experience_zh:
   - name: 浙江大学智能服务创新中心
     logo: assets/images/badges/ISICenter.webp
-    position: 学生研究员，导师：<a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">郑小林教授</a>
+    position: 学生，导师：<a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">郑小林教授</a>
     date: 2025.07 - 至今
   - name: 陕西省大数据知识工程重点实验室
     logo: assets/images/badges/BDKElab2.webp
-    position: 学生研究员，导师：<a href="https://www.xjtu.edu.cn/jsnr.jsp?wbtreeid=1632&wbwbxjtuteacherid=1473">田锋教授</a>
+    position: 学生，导师：<a href="https://www.xjtu.edu.cn/jsnr.jsp?wbtreeid=1632&wbwbxjtuteacherid=1473">田锋教授</a>
     date: 2025.11 - 至今
   - name: 创新人才科学训练计划
     logo: assets/images/badges/itstp_logo.webp
@@ -117,13 +118,13 @@ experience_zh:
     
 service:
   - name: "China Computer Federation: <strong>Student Member (2024,2025,2026)</strong>"
-  - name: "Berkeley TechFounders' Technology Department: <strong>Member (2024)</strong>"
+  - name: "TechFounders@Berkeley: <strong>Member (2024)</strong>"
   - name: "XJTU Computer Science and Technology Experimental Class Mentor Group: <strong>Minister (2023,2024,2025)</strong>"
 
 service_zh:
   - name: "中国计算机学会：<strong>学生会员 (2024,2025,2026)</strong>"
-  - name: "伯克利科技创业者技术部门：<strong>成员 (2024)</strong>"
-  - name: "西安交通大学计算机科学与技术实验班导师组：<strong>部长 (2023,2024,2025)</strong>"
+  - name: "伯克利科技与创业联盟：<strong>成员 (2024)</strong>"
+  - name: "西安交通大学计学组：<strong>部长 (2023,2024,2025)</strong>"
     
 awards:
 - name: Second Award (National Top 500 Finalist), China Algorithm Capability Competition (CACC) Regional
@@ -184,10 +185,10 @@ awards_zh:
 - name: 第十六届蓝桥杯全国软件和信息技术专业人才大赛全国总决赛C/C++程序设计大学A组全国二等奖
   date: 2025.06
   url: "https://Shengxiang-Lin.github.io/assets/cv/Second%20Award%2C%20Blue%20Bridge%20Cup%20National%20Finals%20C%2B%2B%20Programming%20University%20Group%20A.pdf"
-- name: 第五十届ICPC国际大学生程序设计竞赛全国邀请赛（南昌）银奖（排名第44名/392支队伍）
+- name: 第五十届ICPC国际大学生程序设计竞赛全国邀请赛（南昌）银奖（44/392）
   date: 2025.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Silver%20Award%2C%20The%202025%20ICPC%20China%20Nanchang%20National%20Invitational%20Programming%20Contest.pdf"
-- name: 第十三届ICPC国际大学生程序设计竞赛陕西省赛金奖（排名第13名/151支队伍）
+- name: 第十三届ICPC国际大学生程序设计竞赛陕西省赛金奖（13/151）
   date: 2025.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Glod%20Award%2CThe%202025-2026%20ICPC%20China%20Shaanxi%20Provincial%20Programming%20Contest.pdf"
 - name: 第十届团体程序设计天梯赛（GPLT）全国总决赛个人二等奖（全国前4%）
@@ -258,7 +259,7 @@ news:
     url: "https://mp.weixin.qq.com/s?__biz=MzI0NzExMjIwMQ==&mid=2650995705&idx=1&sn=f11322a6904706c2d10a835ff678be17&chksm=f3f8126067368330a3d6a068e6cb13aa34e53f350b2c9736e15b85bf2acfcc04f4565ea28831&mpshare=1&scene=23&srcid=1127vDtcrvGgLvMChJ1gLelU&sharer_shareinfo=c4d6f0596af1effeae5af0902dae5ac6&sharer_shareinfo_first=c4d6f0596af1effeae5af0902dae5ac6#rd"
 
 news_zh:
-  - name: "汇聚全球英才，镇海青年勇立时代潮头（共青团镇海区委，宁波）"
+  - name: "寻访百位全球镇海菁英（共青团镇海区委，宁波）"
     date: 2026.01
     url: "https://mp.weixin.qq.com/s/tzXz2JcK0pAh5kuk59YzGw"
   - name: "国家奖学金获得者风采展示（宁波市镇海中学）"
@@ -273,10 +274,10 @@ news_zh:
   - name: "国家级奖项，第10届中国大学生程序设计竞赛天梯赛（西安交通大学）"
     date: 2025.05
     url: "https://news.xjtu.edu.cn/info/1009/221789.htm"
-  - name: "编程能力测试（PAT）高级满分，全国排名第一"
+  - name: "编程能力测试（PAT）满分，全国排名第一"
     date: 2025.03
     url: "https://Shengxiang-Lin.github.io/assets/cv/First Award, Programming Ability Test ( PAT ) Advanced Level.pdf"
-  - name: "荣获钱学森学院优秀学业导师称号"
+  - name: "钱学森书院学业辅导优秀个人表彰"
     date: 2024.07
     url: "https://mp.weixin.qq.com/s?__biz=Mzg2NzE1MDM5MQ==&mid=2247489554&idx=1&sn=acae779bb118fe4405c72002bf68e688&chksm=cffa0407ba50e806d4742efc7c07867987fc4589be490c0c0f94ec60851027a92848f3a13b43&mpshare=1&scene=23&srcid=11275DglXHCM9Ko8PRdIvhZT&sharer_shareinfo=408b7c1dd19099b7d14bd26bdc0e1da2&sharer_shareinfo_first=408b7c1dd19099b7d14bd26bdc0e1da2#rd"
   - name: "国家级奖项，第15届蓝桥杯全国软件和信息技术专业人才大赛（西安交通大学）"
