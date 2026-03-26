@@ -41,7 +41,7 @@ short_bio: >-
 short_bio_zh: >-
   你好，我是<strong>林圣翔 (Shengxiang Lin)</strong>，即将就读浙江大学人工智能专业的博士研究生，并在<strong>智能服务创新中心 (ISICenter@ZJU)</strong>进行研究，导师为<a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">郑小林教授</a>。
   我目前正在西安交通大学计算机科学与技术专业（国家拔尖计划）完成我的学士学位（2022-2026）。
-  2024年，我作为国家资助的访问学生完成了加州大学伯克利分校的伯克利全球访问项目。
+  2024年秋季，我参加了加州大学伯克利分校的交流学习项目。
   <br> 我的研究兴趣主要集中在<strong>可信人工智能</strong>领域。
   <br> <span style="color: red; font-style: italic;">如果您有兴趣与我讨论或合作，请随时与我联系。</span>  
 #  I shared some of the datasets and model weights used by the project at <a href="https://huggingface.co/wangrongsheng">🔗HuggingFace</a>. I likewise like to post some small-parameter LM at <a href="https://ollama.com/wangrongsheng">🔗Ollama</a> to help people use it locally.
@@ -105,15 +105,15 @@ experience:
 experience_zh:
   - name: 浙江大学智能服务创新中心
     logo: assets/images/badges/ISICenter.webp
-    position: 学生，导师：<a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">郑小林教授</a>
+    position: 博士研究生，导师：<a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">郑小林教授</a>
     date: 2025.07 - 至今
   - name: 陕西省大数据知识工程重点实验室
     logo: assets/images/badges/BDKElab2.webp
-    position: 学生，导师：<a href="https://www.xjtu.edu.cn/jsnr.jsp?wbtreeid=1632&wbwbxjtuteacherid=1473">田锋教授</a>
+    position: 本科生，导师：<a href="https://www.xjtu.edu.cn/jsnr.jsp?wbtreeid=1632&wbwbxjtuteacherid=1473">田锋教授</a>
     date: 2025.11 - 至今
   - name: 国际化拔尖人才创新培养计划
     logo: assets/images/badges/itstp_logo.webp
-    position: 研究实习生，导师：<a href="https://physics.mit.edu/faculty/gunther-roland/">Gunther Roland教授</a>
+    position: 科研实习，导师：<a href="https://physics.mit.edu/faculty/gunther-roland/">Gunther Roland教授</a>
     date: 2024.07 - 2024.09
     
 service:
