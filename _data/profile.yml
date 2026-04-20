@@ -127,11 +127,13 @@ service_zh:
   - name: "西安交通大学计学组：<strong>部长 (2023,2024,2025)</strong>"
     
 awards:
+- name: Outstanding Graduate, Xi'an Jiaotong University
+  date: 2026.04
 - name: Second Award, National Top 500 Finalist, China Algorithm Capability Competition CACC Regional 
   date: 2025.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/cacc-second-award.pdf"  
 - name: Outstanding students, Xi'an Jiaotong University
-  date: 2025.12 
+  date: 2025.12  
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20Student%202025.pdf"
 - name: National Scholarship, Top 0.4% Undergraduates Nationwide, Ministry of Education of the People's Republic of China
   date: 2025.12
