@@ -88,7 +88,7 @@
                                         <div class="col-md-12"> <!-- 每行一个元素 -->
                                             <li> <!-- 使用flex布局让date和name在一行 -->
                                                 <!-- <strong class="mr-1">{{item.date}}.</strong> 加粗日期 -->
-                                                <em><span class="lang-en">{{ item.name }}</span><span class="lang-zh">{{ site.data.profile.service_zh[forloop.index0].name }}</span></em>
+                                                <em class="lang-en">{{ item.name }}</em><span class="lang-zh">{{ site.data.profile.service_zh[forloop.index0].name }}</span>
                                             </li>
                                         </div>
                                         {% endfor %}
@@ -121,10 +121,10 @@
                                                 <strong class="mr-1">{{item.date}}.</strong>
                                                 {% if item.url %}
                                                     <a href="{{ item.url }}" target="_blank" class="text-black text-decoration-none">
-                                                        <em><span class="lang-en">{{ item.name }}</span><span class="lang-zh">{{ site.data.profile.awards_zh[forloop.index0].name }}</span></em>
+                                                        <em class="lang-en">{{ item.name }}</em><span class="lang-zh">{{ site.data.profile.awards_zh[forloop.index0].name }}</span>
                                                     </a>
                                                 {% else %}
-                                                    <em><span class="lang-en">{{ item.name }}</span><span class="lang-zh">{{ site.data.profile.awards_zh[forloop.index0].name }}</span></em>
+                                                    <em class="lang-en">{{ item.name }}</em><span class="lang-zh">{{ site.data.profile.awards_zh[forloop.index0].name }}</span>
                                                 {% endif %}
                                             </li>
                                         </div>
@@ -158,10 +158,10 @@
                                                 <strong class="mr-1">{{item.date}}.</strong>
                                                 {% if item.url %}
                                                     <a href="{{ item.url }}" target="_blank" class="text-black text-decoration-none">
-                                                        <em><span class="lang-en">{{ item.name }}</span><span class="lang-zh">{{ site.data.profile.news_zh[forloop.index0].name }}</span></em>
+                                                        <em class="lang-en">{{ item.name }}</em><span class="lang-zh">{{ site.data.profile.news_zh[forloop.index0].name }}</span>
                                                     </a>
                                                 {% else %}
-                                                    <em><span class="lang-en">{{ item.name }}</span><span class="lang-zh">{{ site.data.profile.news_zh[forloop.index0].name }}</span></em>
+                                                    <em class="lang-en">{{ item.name }}</em><span class="lang-zh">{{ site.data.profile.news_zh[forloop.index0].name }}</span>
                                                 {% endif %}
                                             </li>
                                         </div>

@@ -1,9 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="lang-active-en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ page.title }} - {{ site.data.profile.navbar_name }}</title>
+
+    <script>
+        (function() {
+            var lang = localStorage.getItem('site-lang') || 'en';
+            var html = document.documentElement;
+            html.className = html.className.replace(/lang-active-\w+/g, '').trim();
+            html.classList.add('lang-active-' + lang);
+            html.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+        })();
+    </script>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />

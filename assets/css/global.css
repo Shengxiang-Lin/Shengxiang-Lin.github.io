@@ -76,12 +76,16 @@ a.text-black:active{
 }
 
 /* ===== i18n Language Toggle ===== */
-html.lang-active-en .lang-zh {
+.lang-zh {
     display: none !important;
 }
 
 html.lang-active-zh .lang-en {
     display: none !important;
+}
+
+html.lang-active-zh .lang-zh {
+    display: inline !important;
 }
 
 /* Language toggle switch */
