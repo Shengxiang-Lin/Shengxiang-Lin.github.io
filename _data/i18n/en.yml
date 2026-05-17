@@ -17,6 +17,7 @@ close: "Close"
 # Experience card
 education: "Education"
 experience: "Experience"
+service: "Service"
 honors_awards: "Honors & Awards"
 
 # News card
