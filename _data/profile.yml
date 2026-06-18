@@ -33,7 +33,6 @@ orcid: 0009-0006-5550-1488
 
 short_bio: >-
   Hi, I am <strong>Shengxiang Lin</strong>, an incoming Ph.D. student majoring in Artificial Intelligence at Zhejiang University and doing research at <strong>Intelligent Service Innovation Center (ISICenter@ZJU) </strong>, advised by Prof. <a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">Xiaolin Zheng</a>.
-  #In 2026, I am currently completing my B.Eng. in Computer Science and Technology (Qian Xuesen Honor Program) at Xi'an Jiaotong University (2022-2026).
   In 2026, I graduated from Xi'an Jiaotong University with a B.Eng. in Computer Science and Technology (Qian Xuesen Honor Program).
   In 2024, I completed the Berkeley Global Access Program as a nationally funded visiting student at UC Berkeley.   
   <br> My research interests primarily focus on <strong>Artificial Intelligence</strong>.
@@ -41,9 +40,8 @@ short_bio: >-
 
 short_bio_zh: >-
   你好，我是<strong>林圣翔</strong>，即将就读浙江大学人工智能专业的博士研究生，并在<strong>智能服务创新中心</strong>进行研究，导师为<a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">郑小林教授</a>。
-  #我目前正在西安交通大学计算机科学与技术专业（国家拔尖计划）完成我的学士学位（2022-2026）。
   2026年，我于西安交通大学取得计算机科学与技术（国家拔尖计划）专业工学学士学位。
-  2024年秋季，我参加了加州大学伯克利分校的交流学习项目。
+  2024年秋季学期，我参加了加州大学伯克利分校的交流学习项目。
   <br> 我的研究兴趣主要集中在<strong>可信人工智能</strong>领域。
   <br> <span style="color: red; font-style: italic;">如果您有兴趣与我讨论或合作，请随时与我联系。</span>  
 #  I shared some of the datasets and model weights used by the project at <a href="https://huggingface.co/wangrongsheng">🔗HuggingFace</a>. I likewise like to post some small-parameter LM at <a href="https://ollama.com/wangrongsheng">🔗Ollama</a> to help people use it locally.
