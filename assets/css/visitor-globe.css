@@ -5,6 +5,12 @@
     }
 }
 
+@media (min-width: 992px) {
+    .visitor-summary-card {
+        bottom: 12px;
+    }
+}
+
 .visitor-globe-card {
     --visitor-ink: #16333a;
     --visitor-muted: #6f8187;
