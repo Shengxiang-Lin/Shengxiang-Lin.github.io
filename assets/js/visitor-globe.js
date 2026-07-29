@@ -255,7 +255,7 @@
         if (!globe || !globeElement) {
             return;
         }
-        var width = Math.max(200, Math.floor(globeElement.clientWidth || 520)) * 0.75;
+        var width = Math.max(260, Math.floor(globeElement.clientWidth || 520)) * 0.75;
         var height = window.innerWidth < 576 ? 390 : Math.min(560, Math.max(470, width * 0.88)) * 0.75;
         globe.width(width).height(height);
     }
