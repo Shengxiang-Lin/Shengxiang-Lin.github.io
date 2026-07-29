@@ -27,22 +27,12 @@
     var markerColors = ['#ef7d83', '#f18a4a', '#f4b181', '#e96972', '#e99a62', '#d96f77'];
 
     var previewStats = {
-        totalVisits: 109,
-        places: 15,
-        countries: ['China', 'United States', 'Singapore'],
-        pastVisitors: [
-            { country: 'China', region: 'Shanghai', city: '', visits: 26, lat: 31.2304, lng: 121.4737, lastSeen: Date.now() - 35 * 60 * 1000 },
-            { country: 'China', region: 'Hong Kong', city: '', visits: 26, lat: 22.3193, lng: 114.1694, lastSeen: Date.now() - 75 * 60 * 1000 },
-            { country: 'China', region: 'Jiangsu', city: 'Nanjing', visits: 23, lat: 32.0603, lng: 118.7969, lastSeen: Date.now() - 110 * 60 * 1000 },
-            { country: 'United States', region: 'California', city: '', visits: 9, lat: 36.7783, lng: -119.4179, lastSeen: Date.now() - 180 * 60 * 1000 },
-            { country: 'China', region: 'Guangdong', city: 'Shenzhen', visits: 6, lat: 22.5431, lng: 114.0579, lastSeen: Date.now() - 220 * 60 * 1000 },
-            { country: 'Singapore', region: '', city: 'Singapore', visits: 4, lat: 1.3521, lng: 103.8198, lastSeen: Date.now() - 280 * 60 * 1000 }
-        ],
-        currentVisitors: [
-            { country: 'Japan', region: 'Tokyo', city: '', visits: 1, lat: 35.6762, lng: 139.6503, lastSeen: Date.now() }
-        ]
+        totalVisits: 0,
+        places: 0,
+        countries: [],
+        pastVisitors: [],
+        currentVisitors: []
     };
-
     function formatNumber(value) {
         var numeric = Number(value);
         return Number.isFinite(numeric) ? numeric.toLocaleString('en-US') : '—';
@@ -265,8 +255,8 @@
         if (!globe || !globeElement) {
             return;
         }
-        var width = Math.max(280, Math.floor(globeElement.clientWidth || 520));
-        var height = window.innerWidth < 576 ? 390 : Math.min(560, Math.max(470, width * 0.88));
+        var width = Math.max(200, Math.floor(globeElement.clientWidth || 520)) * 0.5;
+        var height = window.innerWidth < 576 ? 390 : Math.min(560, Math.max(470, width * 0.88)) * 0.5;
         globe.width(width).height(height);
     }
 
