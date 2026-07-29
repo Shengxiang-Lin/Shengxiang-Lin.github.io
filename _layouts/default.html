@@ -24,6 +24,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/global.css">
+    {% if page.visitor_globe %}
+    <link rel="stylesheet" href="{{ '/assets/css/visitor-globe.css' | relative_url }}">
+    {% endif %}
     <!-- ICON -->
     <link rel="shortcut icon" href="{{ '/assets/images/etc/sxlin.png' | relative_url }}" />
     <link rel="icon" href="{{ '/assets/images/etc/sxlin.png' | relative_url }}" type="image/png">
@@ -75,6 +78,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/github-buttons/2.14.2/buttons.min.js" integrity="sha512-OYwZx04hKFeFNYrWxIyo3atgGpb+cxU0ENWBZs72X7T9U+NoHPM1ftUn/Mfw7dRDXrqWA6M1wBg6z6fGE32aeA==" crossorigin="anonymous"></script>
     <script src="assets/js/common.js"></script>
     <script src="assets/js/i18n.js"></script>
+    {% if page.visitor_globe %}
+    <script defer src="https://cdn.jsdelivr.net/npm/globe.gl@2.46.1/dist/globe.gl.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+    <script defer src="{{ '/assets/js/visitor-globe.js' | relative_url }}"></script>
+    {% endif %}
 
 <!--    &lt;!&ndash; Coze &ndash;&gt;-->
 <!--    <script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/0.1.0-beta.6/libs/cn/index.js"></script>-->
