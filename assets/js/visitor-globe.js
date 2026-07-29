@@ -279,29 +279,29 @@
         globe = window.Globe()(globeElement)
             .backgroundColor('rgba(0,0,0,0)')
             .showAtmosphere(true)
-            .atmosphereColor('#b8d9d5')
+            .atmosphereColor('#8bbce5')
             .atmosphereAltitude(0.08)
             .showGraticules(false)
             .polygonCapColor(function() {
-                return '#2b7773';
+                return '#397fba';
             })
             .polygonSideColor(function() {
-                return '#205e5b';
+                return '#245d8e';
             })
             .polygonStrokeColor(function() {
-                return 'rgba(220, 239, 236, 0.82)';
+                return 'rgba(220, 238, 252, 0.92)';
             })
             .polygonAltitude(0.006)
             .polygonsTransitionDuration(500);
-
+    
         var material = globe.globeMaterial();
-        material.color.set('#eef7f5');
+        material.color.set('#dceeff');
         material.transparent = true;
-        material.opacity = 0.94;
+        material.opacity = 0.96;
         material.shininess = 0.7;
-
+        
         globe.controls().autoRotate = true;
-        globe.controls().autoRotateSpeed = 0.38;
+        globe.controls().autoRotateSpeed = 1.0;
         globe.controls().enableDamping = true;
         globe.controls().dampingFactor = 0.08;
         globe.pointOfView({ lat: 19, lng: -35, altitude: 2.05 }, 0);
