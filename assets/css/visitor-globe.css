@@ -1,13 +1,40 @@
 @media (min-width: 992px) {
-    .visitor-globe-visual,
-    .visitor-location-panel {
-        transform: translateY(-25px);
+    /* 整个地图矩形 */
+    .visitor-globe-stage {
+        height: 400px;
+        min-height: 400px;
+        padding: 1rem 1.25rem;
+        gap: 2rem;
+        overflow: hidden;
     }
-}
 
-@media (min-width: 992px) {
+    /* 左侧地球和统计框的定位容器 */
+    .visitor-globe-visual {
+        height: 360px;
+        min-height: 360px;
+        transform: none;
+    }
+
+    /* 地球画布 */
+    .visitor-globe-canvas {
+        height: 300px;
+        min-height: 300px;
+    }
+
+    /* 左下统计框向上移动 */
     .visitor-summary-card {
-        bottom: 12px;
+        bottom: 28px;
+    }
+
+    /* 右侧访客框缩短并稍微上移 */
+    .visitor-location-panel {
+        max-height: 330px;
+        transform: translateY(-12px);
+    }
+
+    /* 右侧内部滚动区域 */
+    .visitor-location-list {
+        max-height: 245px;
     }
 }
 
@@ -83,8 +110,7 @@
     align-items: center;
     min-height: 220px;
     padding: clamp(1.25rem, 3.4vw, 2.6rem);
-    background:
-        background: #ffffff;
+    background: #ffffff;
 }
 
 .visitor-globe-visual {
