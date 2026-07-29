@@ -3,6 +3,7 @@ layout: default
 title : Homepage
 navbar_name: Home
 num_selected: 10
+visitor_globe: true
 ---
 {% include widgets/profile_card.html %}
 
@@ -14,22 +15,8 @@ num_selected: 10
     publications=pubs limit=page.num_selected 
     title='<i class="fas fa-star"></i> <span class="lang-en">Selected Publications</span><span class="lang-zh">精选论文</span>'
 %}
-<!--{% assign featured_projects = site.projects | where: "featured", true | sort: "date" | reverse %}
-{% 
-    include widgets/project_card.html 
-    projects=featured_projects 
-    limit=10
-    title='<i class="fas fa-star"></i> Featured Projects'
-    show_all_link=true
-%}
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=99b2b5&w=200&t=tt&d=w1jsZcYWX6uhqj7qrDV6Yu5EWXmHKKNJ4FzY6TnXcWs&co=f8f9fa&ct=b32b42'></script>
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=t9BPgPHDgUw5SZWPUG-8RQNk3k4SmO_ASvdhmfeOlEk&cl=8CA6B1&w=a&w=200&t=tt&co=f8f9fa&ct=b32b42"></script>-->
-<div style="display: flex; justify-content: center; margin: 20px 0;">
-  <!--<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=YkKMylTYFjFyKQrXwUHLyxDvJE6tJhA6Bh4cs12fBBM&w=100"></script>
-  <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=AGTXLeJTbTc5MAr9x4zFvmraqHygGLC3gjP5EMWLX5Y&w=100"></script>
-  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=3nWC5WmiJW4mp55rYRW1xH1YNXp05vPQPRnU4NbRsaQ&cl=ffffff&w=100"></script>-->
-  <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=080808&w=300&t=tt&d=3nWC5WmiJW4mp55rYRW1xH1YNXp05vPQPRnU4NbRsaQ&co=ffffff&ct=000000&cmo=5477e2&cmn=1725e2'></script>
-</div>
+
+{% include widgets/visitor_globe.html %}
 
 <script>
     !

@@ -1,0 +1,110 @@
+<section
+    class="visitor-globe-card my-3 bg-white shadow-sm rounded-sm"
+    id="visitor-community"
+    data-api-base="https://shengxiang-visitor-api.reallinshengxiang.workers.dev"
+    aria-labelledby="visitor-globe-heading"
+>
+    <header class="visitor-globe-header">
+        <div>
+            <h6 id="visitor-globe-heading" class="mb-1">
+                <i class="fas fa-globe-asia" aria-hidden="true"></i>
+                <span class="lang-en">Visitors Around the World</span>
+                <span class="lang-zh">全球访客</span>
+            </h6>
+            <p class="mb-0">
+                <span class="lang-en">A living map of visits, exchanges, and possible collaborations across borders.</span>
+                <span class="lang-zh">一张记录访问、交流与跨地域潜在合作的动态地图。</span>
+            </p>
+        </div>
+        <span class="visitor-data-badge" id="visitor-data-badge" aria-live="polite">
+            <span class="visitor-data-dot" aria-hidden="true"></span>
+            <span class="visitor-data-label">Connecting</span>
+        </span>
+    </header>
+
+    <div class="visitor-globe-stage">
+        <div class="visitor-globe-visual">
+            <div
+                id="visitor-globe"
+                class="visitor-globe-canvas"
+                role="img"
+                aria-label="Interactive globe showing visitor locations"
+            ></div>
+            <div class="visitor-globe-loading" id="visitor-globe-loading">
+                <span class="visitor-loading-ring" aria-hidden="true"></span>
+                <span class="lang-en">Loading the globe...</span>
+                <span class="lang-zh">正在加载地球...</span>
+            </div>
+
+            <div class="visitor-summary-card" aria-label="Visitor summary">
+                <div class="visitor-summary-numbers">
+                    <div class="visitor-summary-stat">
+                        <strong id="visitor-total-visits">—</strong>
+                        <span>
+                            <span class="lang-en">Total visits</span>
+                            <span class="lang-zh">总访问量</span>
+                        </span>
+                    </div>
+                    <div class="visitor-summary-divider" aria-hidden="true"></div>
+                    <div class="visitor-summary-stat">
+                        <strong id="visitor-total-places">—</strong>
+                        <span>
+                            <span class="lang-en">Places</span>
+                            <span class="lang-zh">地区</span>
+                        </span>
+                    </div>
+                </div>
+                <p class="visitor-country-line">
+                    <span class="lang-en">Countries:</span>
+                    <span class="lang-zh">国家/地区：</span>
+                    <span id="visitor-countries">—</span>
+                </p>
+            </div>
+        </div>
+
+        <aside class="visitor-location-panel" aria-label="Visitor locations">
+            <div class="visitor-tabs" role="tablist" aria-label="Visitor time range">
+                <button
+                    type="button"
+                    id="visitor-tab-past"
+                    class="visitor-tab is-active"
+                    data-visitor-tab="past"
+                    role="tab"
+                    aria-selected="true"
+                    aria-controls="visitor-location-list"
+                >
+                    <span class="lang-en">Past Visitors</span>
+                    <span class="lang-zh">历史访客</span>
+                </button>
+                <span class="visitor-tab-rule" aria-hidden="true"></span>
+                <button
+                    type="button"
+                    id="visitor-tab-current"
+                    class="visitor-tab"
+                    data-visitor-tab="current"
+                    role="tab"
+                    aria-selected="false"
+                    aria-controls="visitor-location-list"
+                >
+                    <span class="lang-en">Current</span>
+                    <span class="lang-zh">当前在线</span>
+                    <span class="visitor-current-count" id="visitor-current-count">0</span>
+                </button>
+            </div>
+
+            <div
+                class="visitor-location-list"
+                id="visitor-location-list"
+                role="tabpanel"
+                aria-labelledby="visitor-tab-past"
+                aria-live="polite"
+            ></div>
+        </aside>
+    </div>
+
+    <noscript>
+        <p class="visitor-noscript">
+            This interactive visitor globe requires JavaScript.
+        </p>
+    </noscript>
+</section>
