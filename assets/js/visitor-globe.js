@@ -255,8 +255,8 @@
         if (!globe || !globeElement) {
             return;
         }
-        var width = Math.max(200, Math.floor(globeElement.clientWidth || 520)) * 0.5;
-        var height = window.innerWidth < 576 ? 390 : Math.min(560, Math.max(470, width * 0.88)) * 0.5;
+        var width = Math.max(200, Math.floor(globeElement.clientWidth || 520)) * 0.75;
+        var height = window.innerWidth < 576 ? 390 : Math.min(560, Math.max(470, width * 0.88)) * 0.75;
         globe.width(width).height(height);
     }
 
@@ -291,7 +291,7 @@
         material.shininess = 0.7;
         
         globe.controls().autoRotate = true;
-        globe.controls().autoRotateSpeed = 1.0;
+        globe.controls().autoRotateSpeed = 5.0;
         globe.controls().enableDamping = true;
         globe.controls().dampingFactor = 0.08;
         globe.pointOfView({ lat: 19, lng: -35, altitude: 2.05 }, 0);
