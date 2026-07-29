@@ -1,7 +1,7 @@
 @media (min-width: 992px) {
     .visitor-globe-visual,
     .visitor-location-panel {
-        transform: translateY(-18px);
+        transform: translateY(-25px);
     }
 }
 
