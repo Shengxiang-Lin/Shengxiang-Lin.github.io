@@ -71,9 +71,7 @@
     min-height: 640px;
     padding: clamp(1.25rem, 3.4vw, 2.6rem);
     background:
-        radial-gradient(circle at 76% 30%, rgba(210, 233, 229, 0.44), transparent 22rem),
-        radial-gradient(circle at 22% 68%, rgba(217, 237, 234, 0.48), transparent 24rem),
-        #f4f9f8;
+        background: #ffffff;
 }
 
 .visitor-globe-visual {
