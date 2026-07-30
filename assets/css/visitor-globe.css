@@ -18,11 +18,12 @@
     justify-content: space-between;
     gap: 1rem;
     padding: 1rem 1.25rem;
-    border-bottom: 1px solid #e3eceb;
+    border-bottom: 0;
 }
 
-.visitor-globe-header h6 {
-    color: var(--visitor-ink);
+.visitor-globe-header h6,
+.visitor-globe-header h6 i {
+    color: #000;
 }
 
 .visitor-globe-header p {
@@ -417,6 +418,7 @@
     .visitor-globe-canvas {
         height: 240px;
         min-height: 240px;
+        transform: translate(40px, -18px);
     }
 
     .visitor-summary-card {
@@ -444,7 +446,7 @@
 
     /* 标题与说明 */
     .visitor-globe-header h6 {
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
 
     .visitor-globe-header p {
