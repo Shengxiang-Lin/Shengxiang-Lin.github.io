@@ -255,8 +255,22 @@
         if (!globe || !globeElement) {
             return;
         }
-        var width = Math.max(260, Math.floor(globeElement.clientWidth || 520)) * 0.75;
-        var height = window.innerWidth < 576 ? 390 : Math.min(560, Math.max(470, width * 0.88)) * 0.75;
+
+        var availableWidth = Math.max(280, Math.floor(globeElement.clientWidth || 520));
+        var width;
+        var height;
+
+        if (window.innerWidth < 576) {
+            width = availableWidth * 0.75;
+            height = 390;
+        } else if (window.innerWidth < 992) {
+            width = availableWidth * 0.75;
+            height = Math.min(560, Math.max(470, width * 0.88)) * 0.75;
+        } else {
+            width = availableWidth;
+            height = 240;
+        }
+
         globe.width(width).height(height);
     }
 
