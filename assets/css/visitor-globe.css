@@ -418,7 +418,7 @@
     .visitor-globe-canvas {
         height: 240px;
         min-height: 240px;
-        transform: translate(40px, -18px);
+        transform: translate(60px, -28px);
     }
 
     .visitor-summary-card {
@@ -432,7 +432,7 @@
         max-height: 264px;
         justify-self: center;
         padding: 0.8rem 0.9rem;
-        transform: translateY(-12px);
+        transform: translateY(-22px);
     }
 
     .visitor-location-list {
