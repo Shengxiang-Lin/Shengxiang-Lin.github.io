@@ -411,7 +411,7 @@
     }
 
     .visitor-summary-stat strong {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .visitor-summary-stat > span {
@@ -435,5 +435,55 @@
 @media (prefers-reduced-motion: reduce) {
     .visitor-loading-ring {
         animation: none;
+    }
+}
+
+@media (min-width: 992px) {
+    /* 标题与说明 */
+    .visitor-globe-header h6 {
+        font-size: 0.95rem;
+    }
+
+    .visitor-globe-header p {
+        font-size: 0.78rem;
+    }
+
+    .visitor-data-badge {
+        font-size: 0.66rem;
+    }
+
+    /* 7、6 等统计数字 */
+    .visitor-summary-stat strong {
+        font-size: 1.55rem;
+    }
+
+    /* Total visits、Places */
+    .visitor-summary-stat > span {
+        font-size: 0.76rem;
+    }
+
+    /* Countries: ... */
+    .visitor-country-line {
+        font-size: 0.72rem;
+    }
+
+    /* Past Visitors、Current */
+    .visitor-tab {
+        font-size: 0.7rem;
+    }
+
+    /* Current 后面的数字 */
+    .visitor-current-count {
+        font-size: 0.56rem;
+    }
+
+    /* Japan, Tokyo... 等地点 */
+    .visitor-location-name {
+        font-size: 0.82rem;
+    }
+
+    /* Last seen... */
+    .visitor-location-meta {
+        font-size: 0.66rem;
     }
 }
