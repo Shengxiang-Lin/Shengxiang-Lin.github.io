@@ -402,8 +402,8 @@
 @media (min-width: 992px) {
     /* Keep the outer stage compact while scaling its contents independently. */
     .visitor-globe-stage {
-        height: 400px;
-        min-height: 400px;
+        height: 320px;
+        min-height: 320px;
         padding: 1rem 1.25rem;
         gap: 2rem;
         overflow: hidden;
@@ -418,7 +418,7 @@
     .visitor-globe-canvas {
         height: 240px;
         min-height: 240px;
-        transform: translate(60px, -28px);
+        transform: translate(200px, -28px);
     }
 
     .visitor-summary-card {
