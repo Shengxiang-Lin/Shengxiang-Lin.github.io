@@ -113,10 +113,10 @@
                         <div class="my-1">
                             <h6><i class="fas fa-trophy"></i> &nbsp; {% include i18n.html key="honors_awards" %}</h6>
                             <div class="mx-2">
-                                <ul class="list small pl-3 mb-1">
+                                <ul class="list small pl-3 mb-1" data-collapsible-list="awards">
                                     <div class="row">
                                         {% for item in site.data.profile.awards %}
-                                        <div class="col-md-12">
+                                        <div class="col-md-12{% if forloop.index > 10 %} d-none{% endif %}"{% if forloop.index > 10 %} data-collapsible-extra{% endif %}>
                                             <li>
                                                 <strong class="mr-1">{{item.date}}.</strong>
                                                 {% if item.url %}
@@ -131,6 +131,18 @@
                                         {% endfor %}
                                     </div>
                                 </ul>
+                                {% if site.data.profile.awards.size > 10 %}
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-link btn-sm px-0 mt-1 text-secondary" data-collapsible-toggle="awards" aria-expanded="false">
+                                        <span data-collapsible-more>
+                                            <span class="lang-en">Show more</span><span class="lang-zh">展开更多</span>
+                                        </span>
+                                        <span class="d-none" data-collapsible-less>
+                                            <span class="lang-en">Show less</span><span class="lang-zh">收起</span>
+                                        </span>
+                                    </button>
+                                </div>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
@@ -150,10 +162,10 @@
                         <div class="my-1">
                             <h6><i class="fas fa-rss"></i> &nbsp; {% include i18n.html key="news" %}</h6>
                             <div class="mx-2">
-                                <ul class="list small pl-3 mb-1">
+                                <ul class="list small pl-3 mb-1" data-collapsible-list="news">
                                     <div class="row">
                                         {% for item in site.data.profile.news %}
-                                        <div class="col-md-12">
+                                        <div class="col-md-12{% if forloop.index > 10 %} d-none{% endif %}"{% if forloop.index > 10 %} data-collapsible-extra{% endif %}>
                                             <li>
                                                 <strong class="mr-1">{{item.date}}.</strong>
                                                 {% if item.url %}
@@ -168,6 +180,18 @@
                                         {% endfor %}
                                     </div>
                                 </ul>
+                                {% if site.data.profile.news.size > 10 %}
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-link btn-sm px-0 mt-1 text-secondary" data-collapsible-toggle="news" aria-expanded="false">
+                                        <span data-collapsible-more>
+                                            <span class="lang-en">Show more</span><span class="lang-zh">展开更多</span>
+                                        </span>
+                                        <span class="d-none" data-collapsible-less>
+                                            <span class="lang-en">Show less</span><span class="lang-zh">收起</span>
+                                        </span>
+                                    </button>
+                                </div>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
@@ -177,3 +201,24 @@
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-collapsible-toggle]').forEach(function (button) {
+        button.addEventListener('click', function () {
+            var target = button.getAttribute('data-collapsible-toggle');
+            var list = document.querySelector('[data-collapsible-list="' + target + '"]');
+            if (!list) return;
+
+            var expanded = button.getAttribute('aria-expanded') === 'true';
+            list.querySelectorAll('[data-collapsible-extra]').forEach(function (item) {
+                item.classList.toggle('d-none', expanded);
+            });
+
+            button.setAttribute('aria-expanded', String(!expanded));
+            button.querySelector('[data-collapsible-more]').classList.toggle('d-none', !expanded);
+            button.querySelector('[data-collapsible-less]').classList.toggle('d-none', expanded);
+        });
+    });
+});
+</script>
