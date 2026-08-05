@@ -124,3 +124,62 @@ html.lang-active-zh .lang-zh {
     background-color: #d0dde8;
     height: 1rem;
 }
+
+
+/* ===== Collapsible Awards & News ===== */
+[data-collapsible-list].collapsible-fade {
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 88%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 0%, #000 88%, transparent 100%);
+}
+
+[data-collapsible-list].collapsible-fade.is-expanded {
+    -webkit-mask-image: none;
+    mask-image: none;
+}
+
+.collapsible-toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.35rem;
+}
+
+.collapsible-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 142px;
+    padding: 7px 28px;
+    border: 1px solid rgba(38, 88, 155, 0.22);
+    border-radius: 10px;
+    background: transparent;
+    color: #1a3654;
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.collapsible-toggle-btn:hover {
+    border-color: rgba(38, 88, 155, 0.38);
+    background-color: rgba(38, 88, 155, 0.04);
+    color: #14304d;
+}
+
+.collapsible-toggle-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.18rem rgba(74, 114, 152, 0.16);
+}
+
+.collapsible-toggle-btn [data-collapsible-more],
+.collapsible-toggle-btn [data-collapsible-less] {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    white-space: nowrap;
+}
+
+.collapsible-toggle-btn i {
+    font-size: 0.72rem;
+}
