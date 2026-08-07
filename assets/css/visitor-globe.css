@@ -422,7 +422,7 @@
     }
 
     .visitor-summary-card {
-        bottom: 22px;
+        bottom: 34px;
         width: min(100%, 315px);
         padding: 0.65rem 0.85rem 0.6rem;
     }
