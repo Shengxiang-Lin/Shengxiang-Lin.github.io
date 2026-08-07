@@ -357,6 +357,13 @@
         min-height: 380px;
     }
 
+    .visitor-globe-canvas canvas {
+        position: relative;
+        left: 50%;
+        margin: 0;
+        transform: translateX(-50%);
+    }
+
     .visitor-summary-card {
         left: 50%;
         width: calc(100% - 0.5rem);
