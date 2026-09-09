@@ -241,9 +241,9 @@ awards_zh:
 
 
 news:
-  - name: One paper about privacy-preserving LLM-enhanced recommendation got accepted by EMNLP 2026 Main (15.4%).
+  - name: One paper about privacy-preserving LLM-enhanced recommendation got accepted by EMNLP 2026 Main (15.4%)
     date: 2026.08
-    url: "https://2026.emnlp.org/"
+    url: "https://2026.emnlp.org/program/main_papers"
   - name: Recipient of the 2026 CCF College Student Launch Program (China Computer Federation)
     date: 2026.08
     url: "https://www.ccf.org.cn/Awards/Awards/2026-07-31/919353.shtml"
@@ -287,7 +287,7 @@ news:
 news_zh:
   - name: "一篇关于面向隐私保护的大语言模型增强推荐系统的论文被EMNLP 2026主会（录取率 15.4%）接收"
     date: 2026.08
-    url: "https://2026.emnlp.org/"
+    url: "https://2026.emnlp.org/program/main_papers"
   - name: "入选2026年度CCF大学生启航计划（中国计算机学会）"
     date: 2026.08
     url: "https://www.ccf.org.cn/Awards/Awards/2026-07-31/919353.shtml"
