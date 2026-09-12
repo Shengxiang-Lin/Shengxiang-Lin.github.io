@@ -408,3 +408,14 @@ html[data-theme="dark"] canvas[id^="c_n"] {
     filter: invert(1);
     opacity: 0.30 !important;
 }
+
+
+/* ===== Highlight the site owner's name across publication author lists ===== */
+.author-self {
+    background-color: #f2f2f2;
+}
+
+html[data-theme="dark"] .author-self {
+    color: #e6edf3;
+    background-color: #21262d;
+}
