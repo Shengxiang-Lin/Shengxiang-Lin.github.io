@@ -5,7 +5,7 @@
         <a href="publications">(view all <i class="fas fa-angle-double-right"></i>)</a> <a href='https://scholar.google.com/citations?user=W-rloDsAAAAJ'><img src="https://img.shields.io/endpoint?url=https://Shengxiang-Lin.github.io/google_scholar_crawler/results/gs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
     </h6>
     {% for item in publications limit:include.limit %}
-        {% include widgets/publication_item.html item=item %}    
+        {% include widgets/publication_item.html item=item hide_abstract=item.hide_abstract_on_home %}    
     {% endfor %}
     <h6 class="d-block p-3 mt-0 text-right">
         <a href="publications">All publications <i class="fas fa-angle-double-right"></i></a>
