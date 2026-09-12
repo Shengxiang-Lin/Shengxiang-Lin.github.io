@@ -26,7 +26,7 @@
 
     function syncButton() {
         var dark = isDark();
-        button.innerHTML = dark ? SUN : MOON;
+        button.innerHTML = dark ? MOON : SUN;
         button.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
         button.setAttribute('title', dark ? 'Switch to light mode' : 'Switch to dark mode');
     }
