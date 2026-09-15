@@ -7,7 +7,11 @@ visitor_globe: true
 ---
 {% include widgets/profile_card.html %}
 
-{% include widgets/experience_card.html %}
+{% include widgets/education_card.html %}
+
+{% include widgets/experience_only_card.html %}
+
+{% include widgets/news_card.html %}
 
 {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
 {% 
@@ -15,6 +19,10 @@ visitor_globe: true
     publications=pubs limit=page.num_selected 
     title='<i class="fas fa-star mr-2"></i><span class="lang-en">Selected Publications</span><span class="lang-zh">精选论文</span>'
 %}
+
+{% include widgets/awards_card.html %}
+
+{% include widgets/service_card.html %}
 
 {% include widgets/visitor_globe.html %}
 
