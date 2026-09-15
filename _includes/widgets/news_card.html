@@ -1,0 +1,51 @@
+<div class="row mt-3">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4">
+                <div class="row">
+                    {% if site.data.profile.news %}
+                    <div class="col-md-12">
+                        <div class="my-1">
+                            <h6><i class="fas fa-rss"></i> &nbsp; {% include i18n.html key="news" %}</h6>
+                            <div class="mx-2">
+                                <ul class="list small pl-3 mb-1{% if site.data.profile.news.size > 10 %} collapsible-fade{% endif %}" data-collapsible-list="news">
+                                    <div class="row">
+                                        {% for item in site.data.profile.news %}
+                                        <div class="col-md-12{% if forloop.index > 10 %} d-none{% endif %}"{% if forloop.index > 10 %} data-collapsible-extra{% endif %}>
+                                            <li>
+                                                <strong class="mr-1">{{item.date}}.</strong>
+                                                {% if item.url %}
+                                                    <a href="{{ item.url }}" target="_blank" class="text-black text-decoration-none">
+                                                        <em class="lang-en">{{ item.name }}</em><span class="lang-zh">{{ site.data.profile.news_zh[forloop.index0].name }}</span>
+                                                    </a>
+                                                {% else %}
+                                                    <em class="lang-en">{{ item.name }}</em><span class="lang-zh">{{ site.data.profile.news_zh[forloop.index0].name }}</span>
+                                                {% endif %}
+                                            </li>
+                                        </div>
+                                        {% endfor %}
+                                    </div>
+                                </ul>
+                                {% if site.data.profile.news.size > 10 %}
+                                <div class="collapsible-toggle-container">
+                                    <button type="button" class="collapsible-toggle-btn" data-collapsible-toggle="news" aria-expanded="false">
+                                        <span data-collapsible-more>
+                                            <span class="lang-en">Show More</span><span class="lang-zh">展开更多</span>
+                                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="d-none" data-collapsible-less>
+                                            <span class="lang-en">Show Less</span><span class="lang-zh">收起</span>
+                                            <i class="fas fa-chevron-up" aria-hidden="true"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
