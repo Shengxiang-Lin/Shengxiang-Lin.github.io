@@ -420,44 +420,49 @@ html[data-theme="dark"] .author-self {
     background-color: #21262d;
 }
 
-/* ===== Publication meta box + resource actions ===== */
+/* ===== Publication inline metadata + resource actions ===== */
+.publication-venue-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.38rem;
+}
+
 .publication-meta-box {
     display: inline-flex;
     align-items: center;
     max-width: 100%;
-    margin: 0 0 0.55rem 0;
-    padding: 0.38rem 0.72rem;
-    border: 1.5px solid #a9bfd2;
-    border-radius: 10px;
-    color: #315d7e;
-    background: #f5f9fc;
-    box-shadow: 0 2px 5px rgba(49, 93, 126, 0.08);
-    font-size: 0.80rem;
+    padding: 0.13rem 0.42rem;
+    border: 1px solid #afc3d4;
+    border-radius: 7px;
+    color: #496a86;
+    background: #f7fafc;
+    font-size: 0.92em;
     font-weight: 700;
+    font-style: normal;
     line-height: 1.15;
-    letter-spacing: 0.015em;
-    white-space: normal;
+    letter-spacing: 0.005em;
+    white-space: nowrap;
 }
 
 .publication-actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.42rem;
-    margin-top: 0.55rem;
+    gap: 0.32rem;
+    margin-top: 0.42rem;
 }
 
 .publication-action {
     display: inline-flex;
     align-items: center;
-    gap: 0.38rem;
-    min-height: 2rem;
-    padding: 0.34rem 0.68rem;
+    min-height: 1.72rem;
+    padding: 0.24rem 0.50rem;
     border: 1px solid #cfd8e1;
-    border-radius: 9px;
+    border-radius: 7px;
     background: #ffffff;
     color: #38516a;
-    box-shadow: 0 1px 3px rgba(15, 35, 55, 0.06);
-    font-size: 0.80rem;
+    box-shadow: 0 1px 2px rgba(15, 35, 55, 0.05);
+    font-size: 0.74rem;
     font-weight: 700;
     line-height: 1;
     text-decoration: none !important;
@@ -471,11 +476,31 @@ html[data-theme="dark"] .author-self {
 
 .publication-action:hover {
     transform: translateY(-1px);
-    box-shadow: 0 4px 10px rgba(15, 35, 55, 0.10);
+    box-shadow: 0 3px 8px rgba(15, 35, 55, 0.09);
+}
+
+.publication-action-core,
+.publication-action-stars {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.30rem;
 }
 
 .publication-action i {
-    font-size: 0.98rem;
+    font-size: 0.86rem;
+}
+
+.publication-action-divider {
+    width: 1px;
+    height: 0.95rem;
+    margin: 0 0.38rem;
+    background: currentColor;
+    opacity: 0.25;
+}
+
+.publication-star-icon {
+    color: #b27b1f;
+    font-size: 0.78rem !important;
 }
 
 .publication-action-project {
@@ -539,21 +564,20 @@ html[data-theme="dark"] .author-self {
 }
 
 html[data-theme="dark"] .publication-meta-box {
-    color: #bdd0e0;
-    border-color: #48647b;
-    background: #17222d;
-    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.18);
+    color: #aebfd0;
+    border-color: #466176;
+    background: #17212b;
 }
 
 html[data-theme="dark"] .publication-action {
     color: #c3cfdb;
     border-color: #3c4a58;
     background: #161d25;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22);
 }
 
 html[data-theme="dark"] .publication-action:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.32);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.28);
 }
 
 html[data-theme="dark"] .publication-action-project {
@@ -586,23 +610,31 @@ html[data-theme="dark"] .publication-action-paper {
     background: #2a1b1b;
 }
 
+html[data-theme="dark"] .publication-star-icon {
+    color: #d6a84b;
+}
+
 @media (max-width: 575.98px) {
+    .publication-venue-line {
+        gap: 0.30rem;
+    }
+
     .publication-meta-box {
-        margin-bottom: 0.42rem;
-        padding: 0.32rem 0.60rem;
-        border-radius: 8px;
-        font-size: 0.74rem;
+        padding: 0.12rem 0.36rem;
+        border-radius: 6px;
+        font-size: 0.88em;
+        white-space: normal;
     }
 
     .publication-actions {
-        gap: 0.34rem;
-        margin-top: 0.42rem;
+        gap: 0.28rem;
+        margin-top: 0.36rem;
     }
 
     .publication-action {
-        min-height: 1.85rem;
-        padding: 0.30rem 0.58rem;
-        border-radius: 8px;
-        font-size: 0.75rem;
+        min-height: 1.62rem;
+        padding: 0.22rem 0.44rem;
+        border-radius: 6px;
+        font-size: 0.71rem;
     }
 }

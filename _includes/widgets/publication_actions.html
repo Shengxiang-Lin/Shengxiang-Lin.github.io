@@ -29,9 +29,18 @@
             {% assign icon_class = "fas fa-file-pdf" %}
         {% endif %}
 
-        <a class="publication-action publication-action-{{ action_class }}" target="{{ target }}" href="{{ href }}">
-            <i class="{{ icon_class }}" aria-hidden="true"></i>
-            <span>{{ label }}</span>
+        <a class="publication-action publication-action-{{ action_class }}" target="{{ target }}" href="{{ href }}"{% if label == "Code" and item.github_repo %} data-github-repo="{{ item.github_repo }}"{% endif %}>
+            <span class="publication-action-core">
+                <i class="{{ icon_class }}" aria-hidden="true"></i>
+                <span>{{ label }}</span>
+            </span>
+            {% if label == "Code" and item.github_repo %}
+            <span class="publication-action-stars" data-github-stars hidden>
+                <span class="publication-action-divider" aria-hidden="true"></span>
+                <i class="fas fa-star publication-star-icon" aria-hidden="true"></i>
+                <span data-github-star-count></span>
+            </span>
+            {% endif %}
         </a>
     {% endfor %}
 </div>
