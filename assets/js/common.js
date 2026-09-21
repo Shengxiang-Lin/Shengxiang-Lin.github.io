@@ -167,14 +167,49 @@ document.addEventListener('DOMContentLoaded', function () {
         Object.keys(reposToFetch).forEach(fetchCount);
     }
 
+    function renderCachedCounts() {
+        getTrackers().forEach(function (button) {
+            var repo = button.getAttribute('data-github-repo');
+            if (!repo) return;
+
+            var cached = readCache(repo);
+            if (cached) {
+                renderCount(repo, cached.count);
+            }
+        });
+    }
+
+    function scheduleRefresh() {
+        if (!getTrackers().length) return;
+
+        var run = function () {
+            refreshCounts();
+        };
+
+        if (typeof window.requestIdleCallback === 'function') {
+            window.requestIdleCallback(run, { timeout: 2500 });
+        } else {
+            window.setTimeout(run, 350);
+        }
+    }
+
     document.addEventListener('DOMContentLoaded', function () {
         if (!getTrackers().length) return;
-        refreshCounts();
+
+        // Cached values are local and can be rendered immediately without network work.
+        renderCachedCounts();
+
+        // Keep Shields traffic out of the critical rendering/loading path.
+        if (document.readyState === 'complete') {
+            scheduleRefresh();
+        } else {
+            window.addEventListener('load', scheduleRefresh, { once: true });
+        }
     });
 
     document.addEventListener('visibilitychange', function () {
         if (!document.hidden && getTrackers().length) {
-            refreshCounts();
+            scheduleRefresh();
         }
     });
 })();
