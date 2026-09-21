@@ -1,0 +1,38 @@
+{% assign item = include.item %}
+{% if item.links %}
+<div class="publication-actions" aria-label="Publication resources">
+    {% for link in item.links %}
+        {% assign label = link[0] %}
+        {% assign href = link[1] %}
+        {% assign target = "_blank" %}
+        {% if link[1].url %}
+            {% assign href = link[1].url %}
+            {% assign target = link[1].target | default: "_blank" %}
+        {% endif %}
+
+        {% assign action_class = "default" %}
+        {% assign icon_class = "fas fa-external-link-alt" %}
+        {% if label == "Project" or label == "Project Page" %}
+            {% assign action_class = "project" %}
+            {% assign icon_class = "fas fa-globe" %}
+        {% elsif label == "Code" %}
+            {% assign action_class = "code" %}
+            {% assign icon_class = "fab fa-github" %}
+        {% elsif label == "Models" or label == "Model" %}
+            {% assign action_class = "models" %}
+            {% assign icon_class = "fas fa-cubes" %}
+        {% elsif label == "Cite" or label == "BibTeX" %}
+            {% assign action_class = "cite" %}
+            {% assign icon_class = "fas fa-quote-right" %}
+        {% elsif label == "Paper" or label == "PDF" or label == "arXiv" %}
+            {% assign action_class = "paper" %}
+            {% assign icon_class = "fas fa-file-pdf" %}
+        {% endif %}
+
+        <a class="publication-action publication-action-{{ action_class }}" target="{{ target }}" href="{{ href }}">
+            <i class="{{ icon_class }}" aria-hidden="true"></i>
+            <span>{{ label }}</span>
+        </a>
+    {% endfor %}
+</div>
+{% endif %}
