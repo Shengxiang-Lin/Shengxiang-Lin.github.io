@@ -31,3 +31,34 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    var githubStarCache = {};
+
+    document.querySelectorAll('[data-github-repo]').forEach(function (button) {
+        var repo = button.getAttribute('data-github-repo');
+        if (!repo) return;
+
+        if (!githubStarCache[repo]) {
+            var encodedRepo = repo.split('/').map(encodeURIComponent).join('/');
+            githubStarCache[repo] = fetch('https://api.github.com/repos/' + encodedRepo, {
+                headers: { 'Accept': 'application/vnd.github+json' }
+            }).then(function (response) {
+                if (!response.ok) throw new Error('GitHub API request failed');
+                return response.json();
+            });
+        }
+
+        githubStarCache[repo].then(function (data) {
+            if (typeof data.stargazers_count !== 'number') return;
+            var count = button.querySelector('[data-github-star-count]');
+            var stars = button.querySelector('[data-github-stars]');
+            if (!count || !stars) return;
+
+            count.textContent = data.stargazers_count.toLocaleString('en-US');
+            stars.hidden = false;
+        }).catch(function () {
+            // Keep the Code button usable even when the unauthenticated GitHub API is rate-limited.
+        });
+    });
+});
