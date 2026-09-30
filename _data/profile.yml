@@ -124,7 +124,7 @@ service:
   - name: "XJTU Computer Science and Technology Experimental Class Mentor Group: <strong>Minister (2023,2024,2025)</strong>"
 
 service_zh:
-  - name: "浙江大学人工智能2班：<strong>党支部纪检委员 (2026)，团组织委员 (2026)</strong>"
+  - name: "浙江大学人工智能2班：<strong>党支部纪检委员 (2026)</strong>，<strong>团组织委员 (2026)</strong>"
   - name: "中国计算机学会：<strong>学生会员 (2024,2025,2026)</strong>"
   - name: "伯克利科技与创业联盟：<strong>成员 (2024)</strong>"
   - name: "西安交通大学计学组：<strong>部长 (2023,2024,2025)</strong>"
