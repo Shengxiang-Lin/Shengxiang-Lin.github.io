@@ -1,12 +1,11 @@
 from scholarly import scholarly
-import jsonpickle
 import json
 from datetime import datetime
 import os
 
-author: dict = scholarly.search_author_id("W-rloDsAAAAJ")
+scholar_id = os.getenv("GOOGLE_SCHOLAR_ID") or "W-rloDsAAAAJ"
+author: dict = scholarly.search_author_id(scholar_id)
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-name = author['name']
 author['updated'] = str(datetime.now())
 author['publications'] = {v['author_pub_id']:v for v in author['publications']}
 print(json.dumps(author, indent=2))
