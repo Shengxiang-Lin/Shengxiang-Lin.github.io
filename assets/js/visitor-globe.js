@@ -261,8 +261,8 @@
         var height;
 
         if (window.innerWidth < 576) {
-            width = availableWidth * 0.75;
-            height = 390;
+            width = Math.min(280, Math.max(210, availableWidth * 0.68));
+            height = Math.round(width * 1.06);
         } else if (window.innerWidth < 992) {
             width = availableWidth * 0.75;
             height = Math.min(560, Math.max(470, width * 0.88)) * 0.75;
@@ -308,7 +308,8 @@
         globe.controls().autoRotateSpeed = 5.0;
         globe.controls().enableDamping = true;
         globe.controls().dampingFactor = 0.08;
-        globe.pointOfView({ lat: 19, lng: -35, altitude: 2.05 }, 0);
+        var initialAltitude = window.innerWidth < 576 ? 2.22 : 2.05;
+        globe.pointOfView({ lat: 19, lng: -35, altitude: initialAltitude }, 0);
         resizeGlobe();
 
         return fetch(WORLD_ATLAS_URL)

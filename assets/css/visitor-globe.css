@@ -350,18 +350,24 @@
     }
 
     .visitor-globe-visual {
-        min-height: 470px;
+        min-height: 390px;
     }
 
     .visitor-globe-canvas {
-        min-height: 380px;
+        display: flex;
+        width: 100%;
+        height: 285px;
+        min-height: 0;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
     }
 
     .visitor-globe-canvas canvas {
-        position: relative;
-        left: 50%;
-        margin: 0;
-        transform: translateX(-50%);
+        position: static;
+        left: auto;
+        margin: 0 auto;
+        transform: none;
     }
 
     .visitor-summary-card {
