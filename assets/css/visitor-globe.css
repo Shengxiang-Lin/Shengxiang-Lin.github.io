@@ -351,6 +351,8 @@
 
     .visitor-globe-visual {
         min-height: 390px;
+        transform: translateY(-52px);
+        margin-bottom: -52px;
     }
 
     .visitor-globe-canvas {
