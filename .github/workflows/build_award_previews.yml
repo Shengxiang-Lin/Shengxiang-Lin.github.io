@@ -1,0 +1,41 @@
+name: Build Award Previews
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/build_award_previews.yml'
+      - 'scripts/build_award_previews.py'
+      - '_data/profile.yml'
+      - 'assets/cv/*.pdf'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install preview dependencies
+        run: python -m pip install 'PyMuPDF>=1.24,<2' 'Pillow>=10,<12' 'PyYAML>=6,<7'
+
+      - name: Render award PDFs to WebP
+        run: python scripts/build_award_previews.py
+
+      - name: Commit generated previews
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/images/awards
+          git diff --cached --quiet && exit 0
+          git commit -m "Update award previews"
+          git push
