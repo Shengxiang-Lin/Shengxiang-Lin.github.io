@@ -1,0 +1,11 @@
+.award-preview-trigger,
+.award-preview-trigger:hover,
+.award-preview-trigger:focus,
+.award-preview-trigger:active {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.award-preview-trigger:focus {
+    outline: none;
+}
