@@ -131,7 +131,7 @@ service_zh:
     
 awards:
 - name: CCF Elite Collegiate Award, 100 Tpp CS Undergraduates Nationwide
-  date: 2026.10
+  date: "2026.10"
 - name: Patriotism and Striving Star for Chungying Role Model, Xi’an Jiaotong University
   date: 2026.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Chungying%20Role%20Model.pdf"
@@ -189,7 +189,7 @@ awards:
 
 awards_zh:
 - name: CCF优秀大学生（启航计划）奖
-  date: 2026.10
+  date: "2026.10"
 - name: 西安交通大学"仲英榜样"爱国奋斗之星
   date: 2026.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Chungying%20Role%20Model.pdf"
