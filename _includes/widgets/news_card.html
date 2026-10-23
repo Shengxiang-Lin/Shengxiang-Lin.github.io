@@ -13,7 +13,8 @@
                                         {% for item in site.data.profile.news %}
                                         <div class="col-md-12{% if forloop.index > 10 %} d-none{% endif %}"{% if forloop.index > 10 %} data-collapsible-extra{% endif %}>
                                             <li>
-                                                <strong class="mr-1">{{item.date}}.</strong>
+                                                {% assign item_date = item.date | default: item.data %}
+                                                {% if item_date %}<strong class="mr-1">{{ item_date }}.</strong>{% endif %}
                                                 {% if item.url %}
                                                     <a href="{{ item.url }}" target="_blank" class="text-black text-decoration-none">
                                                         <em class="lang-en">{{ item.name }}</em><span class="lang-zh">{{ site.data.profile.news_zh[forloop.index0].name }}</span>

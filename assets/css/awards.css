@@ -6,13 +6,15 @@
     background: transparent;
     font: inherit;
     text-align: left;
+    text-decoration: none;
     cursor: zoom-in;
 }
 
 .award-preview-trigger:hover,
-.award-preview-trigger:focus {
-    color: #2f6690;
-    text-decoration: underline;
+.award-preview-trigger:focus,
+.award-preview-trigger:active {
+    color: inherit;
+    text-decoration: none;
     outline: none;
 }
 
@@ -183,9 +185,12 @@ body.award-preview-open {
     overflow: hidden;
 }
 
+html[data-theme="dark"] .award-preview-trigger,
 html[data-theme="dark"] .award-preview-trigger:hover,
-html[data-theme="dark"] .award-preview-trigger:focus {
-    color: #8cc8f2;
+html[data-theme="dark"] .award-preview-trigger:focus,
+html[data-theme="dark"] .award-preview-trigger:active {
+    color: inherit;
+    text-decoration: none;
 }
 
 html[data-theme="dark"] .award-preview-dialog {

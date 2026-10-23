@@ -153,6 +153,13 @@
         trigger.addEventListener('click', function() {
             openPreview(trigger);
         });
+
+        trigger.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                openPreview(trigger);
+            }
+        });
     });
 
     modal.querySelectorAll('[data-award-preview-close]').forEach(function(element) {
