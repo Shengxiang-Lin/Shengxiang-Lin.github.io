@@ -15,16 +15,15 @@
                                             <li>
                                                 <strong class="mr-1">{{item.date}}.</strong>
                                                 {% if item.url %}
-                                                    <button
-                                                        type="button"
-                                                        class="award-preview-trigger text-reset text-decoration-none"
+                                                    <span
+                                                        class="award-preview-trigger"
+                                                        role="button"
+                                                        tabindex="0"
                                                         data-award-source="{{ item.url | escape }}"
                                                         data-award-title-en="{{ item.name | escape }}"
                                                         data-award-title-zh="{{ site.data.profile.awards_zh[forloop.index0].name | escape }}"
                                                         aria-haspopup="dialog"
-                                                    >
-                                                        <em class="lang-en">{{ item.name }}</em><span class="lang-zh">{{ site.data.profile.awards_zh[forloop.index0].name }}</span>
-                                                    </button>
+                                                    ><em class="lang-en">{{ item.name }}</em><span class="lang-zh">{{ site.data.profile.awards_zh[forloop.index0].name }}</span></span>
                                                 {% else %}
                                                     <em class="lang-en">{{ item.name }}</em><span class="lang-zh">{{ site.data.profile.awards_zh[forloop.index0].name }}</span>
                                                 {% endif %}
