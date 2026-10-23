@@ -130,65 +130,65 @@ service_zh:
   - name: "西安交通大学计学组：<strong>部长 (2023,2024,2025)</strong>"
     
 awards:
-- name: CCF Elite Collegiate Award, 100 Top CS Undergraduates Nationwide
+- name: "CCF Elite Collegiate Program, 100 Top CS Undergraduates Nationwide"
   date: "2026.10"
-- name: Patriotism and Striving Star for Chungying Role Model, Xi’an Jiaotong University
+- name: "Patriotism and Striving Star for Chungying Role Model, Xi’an Jiaotong University"
   date: 2026.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Chungying%20Role%20Model.pdf"
-- name: Outstanding Graduate, Xi'an Jiaotong University
+- name: "Outstanding Graduate, Xi'an Jiaotong University"
   date: 2026.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20Graduate.pdf"
-- name: Second Award, National Top 500 Finalist, China Algorithm Capability Competition (CACC) Regional 
+- name: "Second Award, National Top 500 Finalist, China Algorithm Capability Competition (CACC) Regional" 
   date: 2025.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/cacc-second-award.pdf"  
-- name: Outstanding students, Xi'an Jiaotong University
+- name: "Outstanding students, Xi'an Jiaotong University"
   date: 2025.12  
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20Student%202025.pdf"
-- name: National Scholarship, Top 0.4% Undergraduates Nationwide, Ministry of Education of the People's Republic of China
+- name: "National Scholarship, Top 0.4% Undergraduates Nationwide, Ministry of Education of the People's Republic of China"
   date: 2025.12
   url: "https://Shengxiang-Lin.github.io/assets/cv/National%20Scholarship%202025.pdf"
-- name: Second Award, Blue Bridge Cup National Software and Information Technology Professional Talent Competition National Finals, C/C++ Programming University Group A
+- name: "Second Award, Blue Bridge Cup National Software and Information Technology Professional Talent Competition National Finals, C/C++ Programming University Group A"
   date: 2025.06
   url: "https://Shengxiang-Lin.github.io/assets/cv/Second%20Award%2C%20Blue%20Bridge%20Cup%20National%20Finals%20C%2B%2B%20Programming%20University%20Group%20A.pdf"
-- name: Silver Award, Ranked 44th/392 Teams, The 2025 ICPC China National Invitational Programming Contest Nanchang
+- name: "Silver Award, Ranked 44th/392 Teams, The 2025 ICPC China National Invitational Programming Contest Nanchang"
   date: 2025.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Silver%20Award%2C%20The%202025%20ICPC%20China%20Nanchang%20National%20Invitational%20Programming%20Contest.pdf"
-- name: Gold Award, Ranked 13th/151 Teams, The 2025 ICPC China Shaanxi Provincial Programming Contest 
+- name: "Gold Award, Ranked 13th/151 Teams, The 2025 ICPC China Shaanxi Provincial Programming Contest"
   date: 2025.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Glod%20Award%2CThe%202025-2026%20ICPC%20China%20Shaanxi%20Provincial%20Programming%20Contest.pdf"
-- name: Personal Second Award, Top 4% Nationwide, Group Programming Ladder Tournament GPLT National Finals
+- name: "Personal Second Award, Top 4% Nationwide, Group Programming Ladder Tournament GPLT National Finals"
   date: 2025.04
   url: "https://Shengxiang-Lin.github.io/assets/cv/2025%20Team%20Programming%20Ladder%20Competition%20National%20Finals.pdf"
-- name: Outstanding students, Xi’an Jiaotong University
+- name: "Outstanding students, Xi’an Jiaotong University"
   date: 2024.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20Student.pdf"
-- name: Huawei Scholarship, 3 Undergraduates Annually, Xi’an Jiaotong University & Huawei Technologies Co., Ltd
+- name: "Huawei Scholarship, 3 Undergraduates Annually, Xi’an Jiaotong University & Huawei Technologies Co., Ltd"
   date: 2024.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Huawei%20scholarship.pdf"
-- name: First Award, China Undergraduate Mathematical Contest in Modeling (CUMCM) Shaanxi Region
+- name: "First Award, China Undergraduate Mathematical Contest in Modeling (CUMCM) Shaanxi Region"
   date: 2024.09
   url: "https://Shengxiang-Lin.github.io/assets/cv/First%20Award%2CNational%20University%20Student%20Mathematical%20Modeling%20Competition%20Shaanxi%20Region.pdf"
-- name: Third Award, Blue Bridge Cup National Software and Information Technology Professional Talent Competition National Finals, C/C++ Programming University Group A
+- name: "Third Award, Blue Bridge Cup National Software and Information Technology Professional Talent Competition National Finals, C/C++ Programming University Group A"
   date: 2024.06
   url: "https://Shengxiang-Lin.github.io/assets/cv/Third%20Award%2C%20Blue%20Bridge%20Cup%20National%20Finals%20C%2B%2B%20Programming%20University%20Group%20A.pdf"
-- name: Outstanding League members, Xi’an Jiaotong University
+- name: "Outstanding League members, Xi’an Jiaotong University"
   date: 2024.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20League%20members%2C%20Xi%E2%80%99an.pdf"
-- name: Personal Second Award, Top 4% Nationwide, Group Programming Ladder Tournament GPLT National Finals
+- name: "Personal Second Award, Top 4% Nationwide, Group Programming Ladder Tournament GPLT National Finals"
   date: 2024.04
   url: "https://Shengxiang-Lin.github.io/assets/cv/Personal%20Second%20Prize%2C%20Group%20Programming%20Ladder%20Tourn.pdf"
-- name: Outstanding students, Xi’an Jiaotong University
+- name: "Outstanding students, Xi’an Jiaotong University"
   date: 2023.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Outstanding%20students%2C%20Xi%E2%80%99an%20Jiaotong%20University.pdf"
-- name: National Scholarship, Top 0.2% Undergraduates Nationwide, Ministry of Education of the People's Republic of China
+- name: "National Scholarship, Top 0.2% Undergraduates Nationwide, Ministry of Education of the People's Republic of China"
   date: 2023.12 
   url: "https://Shengxiang-Lin.github.io/assets/cv/National%20Scholarship.pdf"
-- name: Silver Award, The 2022 ICPC Asia Xi’an Regional Contest
+- name: "Silver Award, The 2022 ICPC Asia Xi’an Regional Contest"
   date: 2023.05 
   url: "https://Shengxiang-Lin.github.io/assets/cv/Silver%20Award%2C%20The%202022%20ICPC%20Asia%20Xi%E2%80%99an%20Regional%20Contest.pdf"
 
 awards_zh:
-- name: CCF优秀大学生（启航计划）奖
+- name: "CCF大学生启航计划"
   date: "2026.10"
 - name: 西安交通大学"仲英榜样"爱国奋斗之星
   date: 2026.05
@@ -247,6 +247,9 @@ awards_zh:
 
 
 news:
+  - name: "2026 CCF College Student Launch Program（China Computer Federation）"
+    data: 2026.10
+    url: "https://mp.weixin.qq.com/s?__biz=MjM5MTY5ODE4OQ==&mid=2651645308&idx=2&sn=f21f7be15ab61184fd098a36ebc4c977&chksm=bc90ed91ab20ece40f67d346fb1a141823c85880681a5624ed0b5fb7d8c0ab248fc51e6536b8&mpshare=1&scene=23&srcid=102397TG12rU6VcBwmUjSoD0&sharer_shareinfo=d37cb61dffd2af8507c92e7522cccea0&sharer_shareinfo_first=5a86c2db83cee0561f2fa8bc534ad05f#rd"
   - name: One paper about privacy-preserving LLM-enhanced recommendation got accepted by EMNLP 2026 Main (15.4%)
     date: 2026.08
     url: "https://2026.emnlp.org/program/main_papers"
@@ -291,6 +294,9 @@ news:
     url: "https://mp.weixin.qq.com/s?__biz=MzI0NzExMjIwMQ==&mid=2650995705&idx=1&sn=f11322a6904706c2d10a835ff678be17&chksm=f3f8126067368330a3d6a068e6cb13aa34e53f350b2c9736e15b85bf2acfcc04f4565ea28831&mpshare=1&scene=23&srcid=1127vDtcrvGgLvMChJ1gLelU&sharer_shareinfo=c4d6f0596af1effeae5af0902dae5ac6&sharer_shareinfo_first=c4d6f0596af1effeae5af0902dae5ac6#rd"
 
 news_zh:
+  - name: "2026年CCF大学生启航计划发布典礼（中国计算机学会）"
+    data: 2026.10
+    url: "https://mp.weixin.qq.com/s?__biz=MjM5MTY5ODE4OQ==&mid=2651645308&idx=2&sn=f21f7be15ab61184fd098a36ebc4c977&chksm=bc90ed91ab20ece40f67d346fb1a141823c85880681a5624ed0b5fb7d8c0ab248fc51e6536b8&mpshare=1&scene=23&srcid=102397TG12rU6VcBwmUjSoD0&sharer_shareinfo=d37cb61dffd2af8507c92e7522cccea0&sharer_shareinfo_first=5a86c2db83cee0561f2fa8bc534ad05f#rd"
   - name: "一篇关于面向隐私保护的大语言模型增强推荐系统的论文被EMNLP 2026主会（录取率 15.4%）接收"
     date: 2026.08
     url: "https://2026.emnlp.org/program/main_papers"
