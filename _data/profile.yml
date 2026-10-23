@@ -36,14 +36,14 @@ short_bio: >-
   Hi, I am <strong>Shengxiang Lin</strong>, a Ph.D. student majoring in Artificial Intelligence at Zhejiang University, doing research at <strong>Intelligent Service Innovation Center (ISICenter@ZJU) </strong>, advised by Prof. <a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">Xiaolin Zheng</a>.
   In 2026, I graduated from Xi’an Jiaotong University with a B.Eng. in the Honors Science Program (Computer Science), as an Honorary Graduate of Qian Xuesen Honors College.
   In 2024, I completed the Berkeley Global Access Program as a nationally funded visiting student at UC Berkeley.   
-  <br> My research interests primarily focus on <strong>Trustworthy AI</strong>.
+  <br> My research interests primarily focus on <strong>Trustworthy AI, Multi-Agent Systems, and Human-AI Collaboration</strong>.
   <br> <span style="color: red; font-style: italic;">Feel free to contact me if you are interested in discussing or collaborating with me.</span>
 
 short_bio_zh: >-
   你好，我是<strong>林圣翔</strong>，浙江大学人工智能专业的博士研究生，在<strong>智能服务创新中心</strong>进行研究，导师为<a href="https://scholar.google.com/citations?user=MY23M60AAAAJ">郑小林教授</a>。
   2026年，我于西安交通大学获得计算机科学与技术（国家拔尖计划）专业工学学士学位，并作为钱学森学院的荣誉毕业生毕业。
   2024年秋季学期，我参加了加州大学伯克利分校的交流学习项目。
-  <br> 我的研究兴趣主要集中在<strong>可信人工智能</strong>领域。
+  <br> 我的研究聚焦于<strong>可信人工智能、多智能体系统、人机协同</strong>等领域。
   <br> <span style="color: red; font-style: italic;">如果您有兴趣与我讨论或合作，请随时与我联系。</span>  
 #  I shared some of the datasets and model weights used by the project at <a href="https://huggingface.co/wangrongsheng">🔗HuggingFace</a>. I likewise like to post some small-parameter LM at <a href="https://ollama.com/wangrongsheng">🔗Ollama</a> to help people use it locally.
 
