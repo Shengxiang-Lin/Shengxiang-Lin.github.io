@@ -7,7 +7,6 @@ import shutil
 import subprocess
 import tempfile
 import unicodedata
-from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
@@ -118,7 +117,6 @@ def main() -> None:
 
     manifest: dict[str, object] = {
         "version": 1,
-        "generated_at": datetime.now(timezone.utc).isoformat(),
         "awards": {},
     }
     manifest_awards: dict[str, object] = manifest["awards"]  # type: ignore[assignment]
