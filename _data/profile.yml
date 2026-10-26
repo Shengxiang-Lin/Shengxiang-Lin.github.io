@@ -132,6 +132,7 @@ service_zh:
 awards:
 - name: "CCF Elite Collegiate Program, 101 Top CS Undergraduates Nationwide"
   date: "2026.10"
+  url: "https://Shengxiang-Lin.github.io/assets/cv/CCF%20Elite%20Collegiate%20Program.pdf"
 - name: "Patriotism and Striving Star for Chungying Role Model, Xi’an Jiaotong University"
   date: 2026.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Chungying%20Role%20Model.pdf"
@@ -190,6 +191,7 @@ awards:
 awards_zh:
 - name: "CCF大学生启航计划，全国计算机专业顶尖本科生101人"
   date: "2026.10"
+  url: "https://Shengxiang-Lin.github.io/assets/cv/CCF%20Elite%20Collegiate%20Program.pdf"
 - name: 西安交通大学"仲英榜样"爱国奋斗之星
   date: 2026.05
   url: "https://Shengxiang-Lin.github.io/assets/cv/Chungying%20Role%20Model.pdf"
