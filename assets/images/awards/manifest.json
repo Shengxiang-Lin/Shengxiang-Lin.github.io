@@ -1,6 +1,12 @@
 {
   "version": 1,
   "awards": {
+    "https://Shengxiang-Lin.github.io/assets/cv/CCF%20Elite%20Collegiate%20Program.pdf": {
+      "pages": [
+        "/assets/images/awards/ccf-elite-collegiate-program/page-01.webp"
+      ],
+      "page_count": 1
+    },
     "https://Shengxiang-Lin.github.io/assets/cv/Chungying%20Role%20Model.pdf": {
       "pages": [
         "/assets/images/awards/chungying-role-model/page-01.webp",
