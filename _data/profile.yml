@@ -254,7 +254,7 @@ news:
     url: "https://mp.weixin.qq.com/s?__biz=MzI4NzYyMzk5MA==&mid=2247585107&idx=1&sn=0cc15dd0a1edacacb89b7e13ad07bebc&chksm=ead39462fb08bbf5e42b64849bb45f2ce7dc62f814b820125c1f7ade7225afa13a3d878ca573&mpshare=1&scene=23&srcid=102430hVsyfP4ZuwFABGSW5r&sharer_shareinfo=951b0f784bedd35e838a038356fe0d5f&sharer_shareinfo_first=2f4b8e4e3d795d2d429be6f45ff14bab#rd"
   - name: "2026 CCF Elite Collegiate Program Launch Ceremony (China Computer Federation)"
     data: "2026.10"
-    url: "https://mp.weixin.qq.com/s?__biz=MjM5MTY5ODE4OQ==&mid=2651645308&idx=2&sn=f21f7be15ab61184fd098a36ebc4c977&chksm=bc90ed91ab20ece40f67d346fb1a141823c85880681a5624ed0b5fb7d8c0ab248fc51e6536b8&mpshare=1&scene=23&srcid=102397TG12rU6VcBwmUjSoD0&sharer_shareinfo=d37cb61dffd2af8507c92e7522cccea0&sharer_shareinfo_first=5a86c2db83cee0561f2fa8bc534ad05f#rd"
+    url: "https://www.ccf.org.cn/Focus/2026-10-28/943942.shtml"
   - name: One paper about privacy-preserving LLM-enhanced recommendation got accepted by EMNLP 2026 Main (15.4%)
     date: 2026.08
     url: "https://2026.emnlp.org/program/main_papers"
@@ -301,7 +301,7 @@ news_zh:
     url: "https://mp.weixin.qq.com/s?__biz=MzI4NzYyMzk5MA==&mid=2247585107&idx=1&sn=0cc15dd0a1edacacb89b7e13ad07bebc&chksm=ead39462fb08bbf5e42b64849bb45f2ce7dc62f814b820125c1f7ade7225afa13a3d878ca573&mpshare=1&scene=23&srcid=102430hVsyfP4ZuwFABGSW5r&sharer_shareinfo=951b0f784bedd35e838a038356fe0d5f&sharer_shareinfo_first=2f4b8e4e3d795d2d429be6f45ff14bab#rd"
   - name: "2026年CCF大学生启航计划发布典礼（中国计算机学会）"
     data: "2026.10"
-    url: "https://mp.weixin.qq.com/s?__biz=MjM5MTY5ODE4OQ==&mid=2651645308&idx=2&sn=f21f7be15ab61184fd098a36ebc4c977&chksm=bc90ed91ab20ece40f67d346fb1a141823c85880681a5624ed0b5fb7d8c0ab248fc51e6536b8&mpshare=1&scene=23&srcid=102397TG12rU6VcBwmUjSoD0&sharer_shareinfo=d37cb61dffd2af8507c92e7522cccea0&sharer_shareinfo_first=5a86c2db83cee0561f2fa8bc534ad05f#rd"
+    url: "https://www.ccf.org.cn/Focus/2026-10-28/943942.shtml"
   - name: "一篇关于面向隐私保护的大语言模型增强推荐系统的论文被EMNLP 2026主会（录取率 15.4%）接收"
     date: 2026.08
     url: "https://2026.emnlp.org/program/main_papers"
